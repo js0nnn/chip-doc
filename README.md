@@ -4,6 +4,8 @@
 
 ![ChipDoc answering questions about the ESP32-H2 datasheet](docs/img/demo_esp32-h2.png)
 
+🎬 **[Watch the 2-minute demo video](docs/ChipDoc_Demo.mp4)**: indexing a new PDF, loading the model, answering with page citations, a correct refusal, and `/sources`.
+
 <details>
 <summary><code>/sources</code> shows the passages behind the last answer, with page numbers</summary>
 
