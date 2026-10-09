@@ -6,3 +6,4 @@ docs/Presentation 1.*
 
 # Fine-tuned weights / HF cache produced locally
 models/*/checkpoint-*/
+dataset/qa/

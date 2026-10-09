@@ -42,7 +42,9 @@ def extract(pdf_path):
             "filename": Path(pdf_path).name,
             "page_count": len(doc),
             "toc": toc,
-            "pages": [{"page": i + 1, "text": p.get("text", "")} for i, p in enumerate(pages)],
+            # Some PDFs decode to lone UTF-16 surrogates, which can't be written as UTF-8.
+            "pages": [{"page": i + 1, "text": p.get("text", "").encode("utf-8", "replace").decode("utf-8")}
+                      for i, p in enumerate(pages)],
         }
 
 
