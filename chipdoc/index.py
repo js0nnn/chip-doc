@@ -55,7 +55,7 @@ class Index:
         import faiss
         if not chunks:
             raise ValueError("No text could be extracted from this PDF (scanned image?)")
-        vecs = embedder().encode([embed_text(c) for c in chunks], batch_size=64,
+        vecs = embedder().encode([embed_text(c) for c in chunks], batch_size=32,
                                  normalize_embeddings=True, convert_to_numpy=True)
         dense = faiss.IndexFlatIP(vecs.shape[1])
         dense.add(np.asarray(vecs, dtype=np.float32))
