@@ -2,6 +2,14 @@
 
 **Ask a microcontroller datasheet questions from your terminal, and get answers that come from the datasheet, with page numbers.**
 
+![ChipDoc answering questions about the ESP32-H2 datasheet](docs/img/demo_esp32-h2.png)
+
+<details>
+<summary><code>/sources</code> shows the passages behind the last answer, with page numbers</summary>
+
+![The /sources command listing the five retrieved passages](docs/img/demo_sources.png)
+</details>
+
 Real output on **LPC1768**, a datasheet held out from training:
 
 ```

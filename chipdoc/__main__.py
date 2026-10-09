@@ -3,14 +3,23 @@
 Everything runs locally; neither the PDF nor the questions leave the machine.
 """
 import argparse
+import re
 import sys
 from pathlib import Path
 
 from rich.console import Console
 from rich.panel import Panel
+from rich.text import Text
 
 from .generate import NOT_FOUND, TOP_K
 from .index import index_pdf
+
+
+def tidy(text):
+    """Passage text for display: drop Markdown/HTML markup and blank lines."""
+    text = re.sub(r"</?(u|sup|sub|b|i)>|\*\*|`|(?m:^#+ *)", "", text).replace("<br>", " ")
+    return "\n".join(line.strip() for line in text.splitlines() if line.strip())
+
 
 HELP = "Ask a question about the datasheet.  /sources  show passages used   /quit  exit"
 
@@ -71,7 +80,7 @@ def main(argv=None):
             console.print(HELP)
         elif q == "/sources":
             for i, h in enumerate(last, 1):
-                console.print(Panel(h["text"], title=f"[{i}] p.{h['page']} | {h['section']}", border_style="dim"))
+                console.print(Panel(Text(tidy(h["text"])), title=f"[{i}] p.{h['page']} | {h['section']}", border_style="dim"))
         else:
             last = ask(q)
     return 0
