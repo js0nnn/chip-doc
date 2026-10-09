@@ -41,7 +41,7 @@ flowchart TD
 | Setting | Value | Why |
 |---|---|---|
 | Base model | `Qwen/Qwen3-0.6B` | Small enough to train and serve on a 4 GB GPU, with fast answers |
-| Method | LoRA, r=16, α=32, dropout 0.05 | About 1.7% of weights trainable; the adapter is a few MB |
+| Method | LoRA, r=16, α=32, dropout 0.05 | 10.1M of 606M weights trainable (1.67%); the adapter is 40 MB |
 | Target modules | q, k, v, o, gate, up, down projections | All linear layers: better quality than attention-only at the same rank |
 | Precision | bf16 weights, gradient checkpointing | Fits 2.5k-token sequences in 4 GB |
 | Batch | 1 × 16 gradient accumulation | Qwen's 151k vocabulary makes logits about 1.5 GB per 2.5k-token sequence |
@@ -52,6 +52,24 @@ flowchart TD
 
 Run: `python scripts/train_lora.py` (stop Ollama first; it holds VRAM).
 
+## Training run
+
+- 1,523 train and 75 validation examples, after dropping 46 that were longer than 2,560 tokens.
+- 192 optimizer steps over 2 epochs: **63 minutes** on an RTX 3050 Laptop GPU (4 GB), peaking at about 2 GB of VRAM.
+
+| Epoch | Train loss (logged) | Validation loss |
+|---|---|---|
+| 0.1 | 0.68 | |
+| 0.5 | 0.38 | |
+| 1.0 | 0.35 | **0.333** |
+| 1.5 | ~0.22 | |
+| 2.0 | ~0.19 | **0.314** |
+
+Validation loss still fell in epoch 2, so 2 epochs did not overfit. The train/val
+gap opening in epoch 2 suggests a third epoch would add little. The full log is in
+`models/chipdoc-qwen3-0.6b-lora/log_history.json`.
+
 ## Results
 
-See [evaluation.md](evaluation.md).
+See [evaluation.md](evaluation.md). In short, page citations went from 0.22 to
+0.91, and correct "Not found" refusals went from 0.30 to 0.74.

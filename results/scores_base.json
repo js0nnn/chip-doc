@@ -1,0 +1,10 @@
+{
+  "answerable_n": 100,
+  "evidence_retrieved": 0.92,
+  "token_f1": 0.4998265950424459,
+  "numbers_correct": 0.7230769230769231,
+  "citation_correct": 0.21839080459770116,
+  "false_refusal": 0.05434782608695652,
+  "unanswerable_n": 100,
+  "refusal_accuracy": 0.3
+}

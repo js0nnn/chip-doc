@@ -33,6 +33,11 @@ def main():
     data = load_dataset("json", data_files={s: str(SFT / f"{s}.jsonl") for s in ("train", "val")})
     data = data.remove_columns(["doc"])
     tok = AutoTokenizer.from_pretrained(BASE_MODEL)
+    # Truncation would cut the answer (it comes last), so drop over-long examples instead.
+    fits = lambda x: len(tok(x["prompt"] + x["completion"]).input_ids) <= args.max_length  # noqa: E731
+    before = {s: len(data[s]) for s in data}
+    data = data.filter(fits)
+    print(f"kept {dict((s, len(data[s])) for s in data)} of {before} (max_length={args.max_length})")
     model = AutoModelForCausalLM.from_pretrained(BASE_MODEL, dtype=torch.bfloat16)
 
     cfg = SFTConfig(
@@ -40,7 +45,7 @@ def main():
         num_train_epochs=args.epochs,
         learning_rate=args.lr,
         lr_scheduler_type="cosine",
-        warmup_ratio=0.03,
+        warmup_steps=0.03,  # float = ratio of total steps (transformers 5)
         # Batch 1: Qwen's 151k vocab makes logits for a 2.5k-token sequence ~1.5 GB.
         per_device_train_batch_size=1,
         per_device_eval_batch_size=1,

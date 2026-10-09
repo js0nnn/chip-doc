@@ -6,4 +6,12 @@ docs/Presentation 1.*
 
 # Fine-tuned weights / HF cache produced locally
 models/*/checkpoint-*/
-dataset/qa/
+models/*/training_args.bin
+models/*/tokenizer*.json
+models/*/chat_template.jinja
+models/*/README.md
+models/train.log
+
+# Teacher-eval scratch logs
+results/*.log
+dataset/qa/*.log

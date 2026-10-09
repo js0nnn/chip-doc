@@ -2,21 +2,42 @@
 
 **Ask a microcontroller datasheet questions from your terminal, and get answers that come from the datasheet, with page numbers.**
 
+Real output on **LPC1768**, a datasheet held out from training:
+
 ```
 $ python -m chipdoc dataset/raw/13_LPC1768.pdf
-╭──────────────────────────── ChipDoc ────────────────────────────╮
-│ 13_LPC1768.pdf  269 passages  |  Qwen3-0.6B (fine-tuned)          │
-╰──────────────────────────────────────────────────────────────────╯
-❯ What is the maximum CPU clock of the LPC1768?
-Answer: The LPC1768 operates at CPU frequencies of up to 100 MHz [p.1]
-Searched: p.1, p.6, p.2
+╭──────────────────────────────── ChipDoc ─────────────────────────────────╮
+│ 13_LPC1768.pdf  269 passages  |  Qwen3-0.6B (fine-tuned)                 │
+│ Ask a question about the datasheet.  /sources  show passages used  /quit │
+╰──────────────────────────────────────────────────────────────────────────╯
+❯ What is the maximum CPU clock frequency of the LPC1768?
+Answer: The LPC1768 operates at CPU frequencies up to 100 MHz. [p.1]
+Searched: p.37, p.1, p.3, p.26, p.18
+
+❯ How many UARTs does the LPC1768 have?
+Answer: The LPC1768 has four UARTs. [p.26]
+Searched: p.30, p.26, p.24, p.77
+
+❯ Does the LPC1768 have built-in Wi-Fi?
+Answer: Not found in the provided datasheet.
 ```
+
+## Results (5 held-out datasheets, 100 questions)
+
+| | Base Qwen3-0.6B | **ChipDoc (Qwen3-0.6B + LoRA)** |
+|---|---|---|
+| Cites the correct page | 0.22 | **0.91** |
+| Says "Not found" when the answer isn't in the passages | 0.30 | **0.74** |
+| Token F1 vs. reference answer | 0.50 | **0.56** |
+| Retrieval: right passage in the top 5 (hybrid) | 0.88 | 0.88 |
+
+Details and caveats are in [docs/evaluation.md](docs/evaluation.md).
 
 ChipDoc is a Retrieval-Augmented Generation (RAG) system:
 
 1. It splits the PDF into page-bounded passages and indexes them with **hybrid search**: dense `bge-small` embeddings plus BM25 keywords.
 2. For each question it retrieves the 5 most relevant passages.
-3. A **Qwen3-0.6B** model, fine-tuned with LoRA on about 2k datasheet QA examples, writes a short answer **only from those passages**. It cites pages and replies `Not found in the provided datasheet.` when the passages don't contain the answer.
+3. A **Qwen3-0.6B** model, fine-tuned with LoRA on 1,523 RAFT-style datasheet QA examples, writes a short answer **only from those passages**. It cites pages and replies `Not found in the provided datasheet.` when the passages don't contain the answer.
 
 Everything runs locally on a 4 GB laptop GPU. Nothing is sent to the internet.
 

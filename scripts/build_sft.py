@@ -30,8 +30,8 @@ VAL_RATE = 0.05
 # One held-out datasheet per vendor family: the model never sees these in training.
 TEST_DOCS = {"2_STM32F103C8", "13_LPC1768", "17_ESP8266EX", "20_ATmega32U4", "28_MSP430FR2433"}
 
-BAD_QUESTION = re.compile(r"\b(excerpt|passage|this (table|section|figure|document)|the above|given text)\b", re.I)
-NUMBER = re.compile(r"\d+(?:\.\d+)?")
+BAD_QUESTION = re.compile(r"\b(revision|document (number|id)|datasheet (version|number)|literature number|excerpt|passage|this (table|section|figure|document)|the above|given text)\b", re.I)
+NUMBER = re.compile(r"(?<![\w.])\d+(?:\.\d+)?")  # skip digits inside names: CC2652R, OCR1A
 
 
 def norm(s):

@@ -102,7 +102,7 @@ def index_pdf(pdf_path, cache_dir=CACHE_DIR, log=print):
     pdf_path = ingest.validate_pdf(pdf_path)
     folder = Path(cache_dir) / file_sha256(pdf_path)[:16]
     if (folder / "dense.faiss").exists():
-        log(f"Using cached index ({folder})")
+        log("Using cached index")
         return Index.load(folder)
     log("Extracting text (first run for this PDF, can take a minute)...")
     doc = ingest.extract(pdf_path)

@@ -1,0 +1,1802 @@
+[
+  {
+    "kind": "answerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the internal sample and hold capacitor value for the STM32F103C8 ADC?",
+    "gold": "The internal sample and hold capacitor is 8 pF.",
+    "gold_page": 74,
+    "retrieved": true,
+    "pred": "The internal sample and hold capacitor value is 8 pF. [p.74]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the internal sample and hold capacitor value for the STM32F103C8 ADC?",
+    "gold": "The internal sample and hold capacitor is 8 pF.",
+    "gold_page": 74,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "17_ESP8266EX",
+    "question": "What is the unit and effective value range of vdd33_const?",
+    "gold": "The unit is 0.1 V and the effective value range is 18 to 36.",
+    "gold_page": 22,
+    "retrieved": true,
+    "pred": "The effective value range of vdd33_const is 0.1 V to 18 V. [p.22]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "17_ESP8266EX",
+    "question": "What is the unit and effective value range of vdd33_const?",
+    "gold": "The unit is 0.1 V and the effective value range is 18 to 36.",
+    "gold_page": 22,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What does ULP Advisor check your code against?",
+    "gold": "ULP Advisor checks your code against a thorough ULP checklist to help minimize energy consumption of your application.",
+    "gold_page": 76,
+    "retrieved": true,
+    "pred": "ULP Advisor checks your code against a thorough ULP checklist to help minimize the energy consumption of your application. [p.76]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What does ULP Advisor check your code against?",
+    "gold": "ULP Advisor checks your code against a thorough ULP checklist to help minimize energy consumption of your application.",
+    "gold_page": 76,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "2_STM32F103C8",
+    "question": "Which capacitor must be connected to VDD3?",
+    "gold": "The 4.7 µF capacitor must be connected to VDD3.",
+    "gold_page": 36,
+    "retrieved": true,
+    "pred": "The 4.7 µF capacitor must be connected to VDD3. [p.36]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "2_STM32F103C8",
+    "question": "Which capacitor must be connected to VDD3?",
+    "gold": "The 4.7 µF capacitor must be connected to VDD3.",
+    "gold_page": 36,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "17_ESP8266EX",
+    "question": "Which pin is used for the SPI slave select 2 (SPICS2) on the ESP8266?",
+    "gold": "GPIO0 (pin 15) is used for SPI slave select 2 (SPICS2) on the ESP8266.",
+    "gold_page": 19,
+    "retrieved": true,
+    "pred": "Pin 15 (GPIO0) is used for SPICS2. [p.19]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "17_ESP8266EX",
+    "question": "Which pin is used for the SPI slave select 2 (SPICS2) on the ESP8266?",
+    "gold": "GPIO0 (pin 15) is used for SPI slave select 2 (SPICS2) on the ESP8266.",
+    "gold_page": 19,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "13_LPC1768",
+    "question": "What is the output function of PWM1[6]?",
+    "gold": "PWM1[6] outputs pulse width modulator 1, channel 6.",
+    "gold_page": 17,
+    "retrieved": true,
+    "pred": "PWM1[6] is the Pulse Width Modulator 1, channel 6 output. [p.17]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "13_LPC1768",
+    "question": "What is the output function of PWM1[6]?",
+    "gold": "PWM1[6] outputs pulse width modulator 1, channel 6.",
+    "gold_page": 17,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the maximum number of I<sup>2</sup> C interfaces supported by the microcontroller?",
+    "gold": "The microcontroller supports up to two I<sup>2</sup> C interfaces (SMBus/PMBus<sup>®</sup>).",
+    "gold_page": 1,
+    "retrieved": true,
+    "pred": "Up to two I<sup>2</sup> C interfaces (SMBus/PMBus®). [p.1]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the maximum number of I<sup>2</sup> C interfaces supported by the microcontroller?",
+    "gold": "The microcontroller supports up to two I<sup>2</sup> C interfaces (SMBus/PMBus<sup>®</sup>).",
+    "gold_page": 1,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "20_ATmega32U4",
+    "question": "What is the output behavior in inverting Compare Output mode for Fast PWM?",
+    "gold": "The output is set on Compare Match and cleared at BOTTOM",
+    "gold_page": 100,
+    "retrieved": true,
+    "pred": "The Waveform Output is set on Compare Match and cleared at BOTTOM. [p.153]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "20_ATmega32U4",
+    "question": "What is the output behavior in inverting Compare Output mode for Fast PWM?",
+    "gold": "The output is set on Compare Match and cleared at BOTTOM",
+    "gold_page": 100,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "20_ATmega32U4",
+    "question": "What register enables the noise canceler?",
+    "gold": "The noise canceler is enabled by setting the Fault Protection Noise Canceler (FPNC4) bit in Timer/Counter4 Control Register D (TCCR4D).",
+    "gold_page": 160,
+    "retrieved": true,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "20_ATmega32U4",
+    "question": "What register enables the noise canceler?",
+    "gold": "The noise canceler is enabled by setting the Fault Protection Noise Canceler (FPNC4) bit in Timer/Counter4 Control Register D (TCCR4D).",
+    "gold_page": 160,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "28_MSP430FR2433",
+    "question": "How many external ADC inputs does the MSP430FR2433 have?",
+    "gold": "The MSP430FR2433 has 10 external ADC inputs.",
+    "gold_page": 53,
+    "retrieved": true,
+    "pred": "The MSP430FR2433 has 10 external ADC inputs. [p.53]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "28_MSP430FR2433",
+    "question": "How many external ADC inputs does the MSP430FR2433 have?",
+    "gold": "The MSP430FR2433 has 10 external ADC inputs.",
+    "gold_page": 53,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "20_ATmega32U4",
+    "question": "How does the TWI hardware handle the bus when it is not free?",
+    "gold": "The TWI waits until a STOP condition is detected, and then generates a new START condition to claim the bus Master status.",
+    "gold_page": 252,
+    "retrieved": true,
+    "pred": "The TWI waits until a STOP condition is detected before generating a new START condition to claim the bus Master status. [p.252]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "20_ATmega32U4",
+    "question": "How does the TWI hardware handle the bus when it is not free?",
+    "gold": "The TWI waits until a STOP condition is detected, and then generates a new START condition to claim the bus Master status.",
+    "gold_page": 252,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "20_ATmega32U4",
+    "question": "What is the maximum counter value in Fast PWM mode when WGM2:0 = 3?",
+    "gold": "0xFF",
+    "gold_page": 100,
+    "retrieved": true,
+    "pred": "The maximum counter value is 0xFF. [p.100]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "20_ATmega32U4",
+    "question": "What is the maximum counter value in Fast PWM mode when WGM2:0 = 3?",
+    "gold": "0xFF",
+    "gold_page": 100,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "13_LPC1768",
+    "question": "What components make up the USB device controller?",
+    "gold": "The USB device controller consists of a register interface, serial interface engine, endpoint buffer memory, and a DMA controller.",
+    "gold_page": 27,
+    "retrieved": true,
+    "pred": "The USB device controller consists of a register interface, serial interface engine, endpoint buffer memory, and a DMA controller. [p.27]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "13_LPC1768",
+    "question": "What components make up the USB device controller?",
+    "gold": "The USB device controller consists of a register interface, serial interface engine, endpoint buffer memory, and a DMA controller.",
+    "gold_page": 27,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "20_ATmega32U4",
+    "question": "What does the Data OverRun (DORn) Flag indicate in the receiver?",
+    "gold": "The Data OverRun (DORn) Flag indicates data loss due to a receiver buffer full condition. It occurs when the receive buffer is full (two characters), a new character is waiting in the Receive Shift Register, and a new start bit is detected.",
+    "gold_page": 200,
+    "retrieved": true,
+    "pred": "The Data OverRun (DORn) Flag indicates data loss due to a receiver buffer full condition. It is set when the receive buffer is full (two characters), a new character is waiting in the Receive Shift Register, and a new start bit is detected. [p.200]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "20_ATmega32U4",
+    "question": "What does the Data OverRun (DORn) Flag indicate in the receiver?",
+    "gold": "The Data OverRun (DORn) Flag indicates data loss due to a receiver buffer full condition. It occurs when the receive buffer is full (two characters), a new character is waiting in the Receive Shift Register, and a new start bit is detected.",
+    "gold_page": 200,
+    "retrieved": false,
+    "pred": "The Data OverRun (DORn) Flag indicates a new character waiting in the Receive Shift Register and a new start bit is detected. [p.210]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the clock source for wakeup in Stop mode?",
+    "gold": "The clock source is the RC oscillator.",
+    "gold_page": 55,
+    "retrieved": true,
+    "pred": "The clock source for wakeup in Stop mode is the RC oscillator. [p.55]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the clock source for wakeup in Stop mode?",
+    "gold": "The clock source is the RC oscillator.",
+    "gold_page": 55,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "17_ESP8266EX",
+    "question": "How many GPIO pins does the ESP8266EX have?",
+    "gold": "The ESP8266EX has 17 GPIO pins.",
+    "gold_page": 18,
+    "retrieved": true,
+    "pred": "The ESP8266EX has 17 GPIO pins. [p.18]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "17_ESP8266EX",
+    "question": "How many GPIO pins does the ESP8266EX have?",
+    "gold": "The ESP8266EX has 17 GPIO pins.",
+    "gold_page": 18,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "20_ATmega32U4",
+    "question": "What are the possible ADC clock frequencies generated by the prescaler?",
+    "gold": "The prescaler generates ADC clock frequencies of CK/2, CK/4, CK/8, CK/16, CK/32, CK/64, and CK/128.",
+    "gold_page": 300,
+    "retrieved": true,
+    "pred": "The prescaler generates an ADC clock frequency of CK/2, CK/4, CK/8, CK/16, CK/32, CK/64, and CK/128. [p.300]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "20_ATmega32U4",
+    "question": "What are the possible ADC clock frequencies generated by the prescaler?",
+    "gold": "The prescaler generates ADC clock frequencies of CK/2, CK/4, CK/8, CK/16, CK/32, CK/64, and CK/128.",
+    "gold_page": 300,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "17_ESP8266EX",
+    "question": "How much processing power is available for user application programming?",
+    "gold": "80% of the processing power is available for user application programming.",
+    "gold_page": 12,
+    "retrieved": true,
+    "pred": "80% of the processing power is available for user application programming and development. [p.12]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "17_ESP8266EX",
+    "question": "How much processing power is available for user application programming?",
+    "gold": "80% of the processing power is available for user application programming.",
+    "gold_page": 12,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "13_LPC1768",
+    "question": "What is the pin number for P2[2] in the LQFP100 package?",
+    "gold": "P2[2] is pin 73 in the LQFP100 package.",
+    "gold_page": 17,
+    "retrieved": true,
+    "pred": "P2[2] corresponds to pin 73 in the LQFP100 package. [p.17]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "13_LPC1768",
+    "question": "What is the pin number for P2[2] in the LQFP100 package?",
+    "gold": "P2[2] is pin 73 in the LQFP100 package.",
+    "gold_page": 17,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the maximum current IDDmax for the STM32F103C8 microcontroller in this high-temperature application?",
+    "gold": "IDDmax = 20 mA",
+    "gold_page": 102,
+    "retrieved": true,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the maximum current IDDmax for the STM32F103C8 microcontroller in this high-temperature application?",
+    "gold": "IDDmax = 20 mA",
+    "gold_page": 102,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "20_ATmega32U4",
+    "question": "How many bits are used for the OCRnA register in the ATmega32U4?",
+    "gold": "The OCRnA register uses 8 bits.",
+    "gold_page": 125,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "20_ATmega32U4",
+    "question": "How many bits are used for the OCRnA register in the ATmega32U4?",
+    "gold": "The OCRnA register uses 8 bits.",
+    "gold_page": 125,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What pins are used for eUS.2433 eUSCI_B0 I<sup>2</sup> C communication?",
+    "gold": "P1.1 (SCL), P1.2 (SDA), and P1.3 (SCL).",
+    "gold_page": 49,
+    "retrieved": true,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What pins are used for eUS.2433 eUSCI_B0 I<sup>2</sup> C communication?",
+    "gold": "P1.1 (SCL), P1.2 (SDA), and P1.3 (SCL).",
+    "gold_page": 49,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the maximum frequency of the AHB bus clock?",
+    "gold": "The maximum frequency of the AHB bus clock is 72 MHz.",
+    "gold_page": 12,
+    "retrieved": true,
+    "pred": "The maximum frequency of the AHB bus clock is 72 MHz. [p.12]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the maximum frequency of the AHB bus clock?",
+    "gold": "The maximum frequency of the AHB bus clock is 72 MHz.",
+    "gold_page": 12,
+    "retrieved": false,
+    "pred": "The maximum frequency of the AHB bus clock is 72 MHz. [p.15]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "20_ATmega32U4",
+    "question": "What is the required sequence for writing to EEPROM?",
+    "gold": "The EEPE bit must be written to one after EEMPE is written to one. The EEMPE bit must be written to one before a logical one is written to EEPE.",
+    "gold_page": 22,
+    "retrieved": true,
+    "pred": "The sequence is: wait until EEPE becomes zero, wait until SELFPRGEN in SPMCSR becomes zero, write new address to EEAR (optional), write new data to EEDR (optional), write logical one to EEMPE while writing zero to EEPE in EECR, and write logical one to EEPE within four clock cycles. [p.22]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "20_ATmega32U4",
+    "question": "What is the required sequence for writing to EEPROM?",
+    "gold": "The EEPE bit must be written to one after EEMPE is written to one. The EEMPE bit must be written to one before a logical one is written to EEPE.",
+    "gold_page": 22,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "20_ATmega32U4",
+    "question": "What is the TOP value for the timer counter in the ATmega32U4?",
+    "gold": "The TOP value can be assigned to be the fixed value 0xFF (MAX) or the value stored in the OCR0A Register.",
+    "gold_page": 95,
+    "retrieved": true,
+    "pred": "The TOP value is 0xFF (hexadecimal). [p.106]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "20_ATmega32U4",
+    "question": "What is the TOP value for the timer counter in the ATmega32U4?",
+    "gold": "The TOP value can be assigned to be the fixed value 0xFF (MAX) or the value stored in the OCR0A Register.",
+    "gold_page": 95,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "17_ESP8266EX",
+    "question": "What power-saving feature does ESP8266EX support for switching between sleep and wakeup modes?",
+    "gold": "It supports fast switch between sleep and wakeup mode for energy-efficient purpose.",
+    "gold_page": 6,
+    "retrieved": true,
+    "pred": "ESP8266EX supports fast switch between sleep and wakeup mode for energy-efficient purposes. [p.6]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "17_ESP8266EX",
+    "question": "What power-saving feature does ESP8266EX support for switching between sleep and wakeup modes?",
+    "gold": "It supports fast switch between sleep and wakeup mode for energy-efficient purpose.",
+    "gold_page": 6,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "13_LPC1768",
+    "question": "How many DMA channels does the LPC1768 have?",
+    "gold": "The LPC1768 has eight DMA channels.",
+    "gold_page": 2,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "13_LPC1768",
+    "question": "How many DMA channels does the LPC1768 have?",
+    "gold": "The LPC1768 has eight DMA channels.",
+    "gold_page": 2,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the primary application target for the MSP430FR2433 microcontroller?",
+    "gold": "The MSP430FR2433 is designed for portable and battery-powered sensing applications.",
+    "gold_page": 1,
+    "retrieved": true,
+    "pred": "The MSP430FR2433 is part of the MSP430™Value Line sensing portfolio, TI's lowest-cost family of MCUs for sensing and measurement applications. [p.1]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the primary application target for the MSP430FR2433 microcontroller?",
+    "gold": "The MSP430FR2433 is designed for portable and battery-powered sensing applications.",
+    "gold_page": 1,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "17_ESP8266EX",
+    "question": "What is the duty ratio of the square wave in the IR remote control interface?",
+    "gold": "The duty ratio is  1/3.",
+    "gold_page": 21,
+    "retrieved": true,
+    "pred": "The duty ratio of the square wave is 1/3. [p.21]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "17_ESP8266EX",
+    "question": "What is the duty ratio of the square wave in the IR remote control interface?",
+    "gold": "The duty ratio is  1/3.",
+    "gold_page": 21,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "20_ATmega32U4",
+    "question": "How many clock cycles does the ELPM instruction take?",
+    "gold": "The ELPM instruction takes 3 clock cycles.",
+    "gold_page": 419,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "20_ATmega32U4",
+    "question": "How many clock cycles does the ELPM instruction take?",
+    "gold": "The ELPM instruction takes 3 clock cycles.",
+    "gold_page": 419,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "13_LPC1768",
+    "question": "What is the pin number for P0[0] in the LQFP100 package?",
+    "gold": "P0[0] is pin 46 in the LQFP100 package.",
+    "gold_page": 10,
+    "retrieved": true,
+    "pred": "P0[0] corresponds to pin 46 in the LQFP100 package. [p.10]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "13_LPC1768",
+    "question": "What is the pin number for P0[0] in the LQFP100 package?",
+    "gold": "P0[0] is pin 46 in the LQFP100 package.",
+    "gold_page": 10,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the I2C bus supply voltage specified in the datasheet for the STM32F103C8?",
+    "gold": "The I2: C bus supply voltage is 3.3 V.",
+    "gold_page": 69,
+    "retrieved": true,
+    "pred": "The I2C bus supply voltage is 3.3 V. [p.69]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the I2C bus supply voltage specified in the datasheet for the STM32F103C8?",
+    "gold": "The I2: C bus supply voltage is 3.3 V.",
+    "gold_page": 69,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "17_ESP8266EX",
+    "question": "What is the power consumption in deep-sleep mode?",
+    "gold": "20 uA",
+    "gold_page": 16,
+    "retrieved": true,
+    "pred": "20 uA [p.16]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "17_ESP8266EX",
+    "question": "What is the power consumption in deep-sleep mode?",
+    "gold": "20 uA",
+    "gold_page": 16,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "13_LPC1768",
+    "question": "What is the default configuration for standard I/O pins?",
+    "gold": "The default configuration for standard I/O pins is input with pull-up enabled.",
+    "gold_page": 75,
+    "retrieved": true,
+    "pred": "The default configuration for standard I/O pins is input with pull-up enabled. [p.75]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "13_LPC1768",
+    "question": "What is the default configuration for standard I/O pins?",
+    "gold": "The default configuration for standard I/O pins is input with pull-up enabled.",
+    "gold_page": 75,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "13_LPC1768",
+    "question": "What is the voltage divider ratio required to ensure the VBUS pin is greater than 0.7VDD for a logic HIGH?",
+    "gold": "The voltage divider ratio should provide a reduction of 3.6 V/5.25 V or ~0.686 V.",
+    "gold_page": 70,
+    "retrieved": true,
+    "pred": "The voltage divider ratio should be such that the VBUS pin is greater than 0.7VDD to indicate a logic HIGH while below the 3.6 V allowable maximum voltage. [p.70]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "13_LPC1768",
+    "question": "What is the voltage divider ratio required to ensure the VBUS pin is greater than 0.7VDD for a logic HIGH?",
+    "gold": "The voltage divider ratio should provide a reduction of 3.6 V/5.25 V or ~0.686 V.",
+    "gold_page": 70,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the weak pull-up resistor value when VIN=VSS?",
+    "gold": "The weak pull-up resistor is 30 kΩ.",
+    "gold_page": 61,
+    "retrieved": true,
+    "pred": "30 kΩ [p.66]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the weak pull-up resistor value when VIN=VSS?",
+    "gold": "The weak pull-up resistor is 30 kΩ.",
+    "gold_page": 61,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "13_LPC1768",
+    "question": "What is the function of P1[20]?",
+    "gold": "P1[20] is a general purpose digital input/output pin.",
+    "gold_page": 15,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "13_LPC1768",
+    "question": "What is the function of P1[20]?",
+    "gold": "P1[20] is a general purpose digital input/output pin.",
+    "gold_page": 15,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "2_STM32F103C8",
+    "question": "Which errata sheet is referenced for the STM32F103x8/B devices?",
+    "gold": "The STM32F103x8/B errata sheet (ES096).",
+    "gold_page": 9,
+    "retrieved": true,
+    "pred": "The STM32F103x8/B errata sheet (ES096) is referenced for the device errata with respect to the datasheet and reference manual. [p.9]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "2_STM32F103C8",
+    "question": "Which errata sheet is referenced for the STM32F103x8/B devices?",
+    "gold": "The STM32F103x8/B errata sheet (ES096).",
+    "gold_page": 9,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "17_ESP8266EX",
+    "question": "What current does the ESP8266EX consume during Light-sleep mode for DTIM3 beacon reception?",
+    "gold": "0.9 mA current.",
+    "gold_page": 17,
+    "retrieved": true,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "17_ESP8266EX",
+    "question": "What current does the ESP8266EX consume during Light-sleep mode for DTIM3 beacon reception?",
+    "gold": "0.9 mA current.",
+    "gold_page": 17,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "17_ESP8266EX",
+    "question": "What is the function of SDIO_CLK?",
+    "gold": "SDIO_CLK connects to SD_CLK (with a series resistor of 200 Ω) and serves as SPI_CLK and GPIO6.",
+    "gold_page": 10,
+    "retrieved": true,
+    "pred": "SDIO_CLK is the clock signal for the SDIO interface. [p.18]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "17_ESP8266EX",
+    "question": "What is the function of SDIO_CLK?",
+    "gold": "SDIO_CLK connects to SD_CLK (with a series resistor of 200 Ω) and serves as SPI_CLK and GPIO6.",
+    "gold_page": 10,
+    "retrieved": false,
+    "pred": "SDIO_CLK is the clock signal for the Secure Digital Input/Output interface. [p.18]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "20_ATmega32U4",
+    "question": "What is the register name for the output compare unit in the ATmega32U4?",
+    "gold": "The OCR0x registers are used for the output compare unit. OCR0x is the register name for the output compare unit in the ATmega32U4.",
+    "gold_page": 96,
+    "retrieved": true,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "20_ATmega32U4",
+    "question": "What is the register name for the output compare unit in the ATmega32U4?",
+    "gold": "The OCR0x registers are used for the output compare unit. OCR0x is the register name for the output compare unit in the ATmega32U4.",
+    "gold_page": 96,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "20_ATmega32U4",
+    "question": "What is the equation for calculating the baud rate in synchronous master mode?",
+    "gold": "BAUD_fOSC_2 * (UBRRn + 1) = fOSC / (2 * (UBRRn + 1))",
+    "gold_page": 214,
+    "retrieved": true,
+    "pred": "The baud rate is calculated using the formula: _fOSC_2 * _UBRRn_1 + 1, where _fOSC_2 is the oscillator frequency divided by 2. [p.214]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "20_ATmega32U4",
+    "question": "What is the equation for calculating the baud rate in synchronous master mode?",
+    "gold": "BAUD_fOSC_2 * (UBRRn + 1) = fOSC / (2 * (UBRRn + 1))",
+    "gold_page": 214,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the maximum frequency for Spy-Bi-Wire input signals?",
+    "gold": "The maximum frequency for Spy-Bi-Wire input signals is 10 MHz.",
+    "gold_page": 38,
+    "retrieved": true,
+    "pred": "The maximum frequency is 10 MHz. [p.38]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the maximum frequency for Spy-Bi-Wire input signals?",
+    "gold": "The maximum frequency for Spy-Bi-Wire input signals is 10 MHz.",
+    "gold_page": 38,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "20_ATmega32U4",
+    "question": "What is the instruction for storing a register value directly to SRAM at address k?",
+    "gold": "The STS instruction stores the register value Rr to SRAM address k.",
+    "gold_page": 419,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "20_ATmega32U4",
+    "question": "What is the instruction for storing a register value directly to SRAM at address k?",
+    "gold": "The STS instruction stores the register value Rr to SRAM address k.",
+    "gold_page": 419,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "17_ESP8266EX",
+    "question": "What is the default baud rate for UART0 when the external crystal oscillator frequency is 26 MHz?",
+    "gold": "The default baud rate for UART0 is 74880 when the external crystal oscillator frequency is 26 MHz.",
+    "gold_page": 21,
+    "retrieved": true,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "17_ESP8266EX",
+    "question": "What is the default baud rate for UART0 when the external crystal oscillator frequency is 26 MHz?",
+    "gold": "The default baud rate for UART0 is 74880 when the external crystal oscillator frequency is 26 MHz.",
+    "gold_page": 21,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the required USBCLK frequency for USB functionality?",
+    "gold": "48 MHz",
+    "gold_page": 12,
+    "retrieved": true,
+    "pred": "USBCLK must run at 48 MHz. [p.12]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the required USBCLK frequency for USB functionality?",
+    "gold": "48 MHz",
+    "gold_page": 12,
+    "retrieved": false,
+    "pred": "The STM32F103xx uses a 48 MHz clock source. [p.19]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "13_LPC1768",
+    "question": "What is the minimum ADC supply current in active mode?",
+    "gold": "1.95 mA",
+    "gold_page": 48,
+    "retrieved": true,
+    "pred": "The minimum ADC supply current in active mode is 1.95 mA. [p.48]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "13_LPC1768",
+    "question": "What is the minimum ADC supply current in active mode?",
+    "gold": "1.95 mA",
+    "gold_page": 48,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "20_ATmega32U4",
+    "question": "What is the default input function of PD0?",
+    "gold": "PD0 is INT0 input by default.",
+    "gold_page": 80,
+    "retrieved": true,
+    "pred": "PD0 serves as an external interrupt source to the MCU when enabled. [p.79]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "20_ATmega32U4",
+    "question": "What is the default input function of PD0?",
+    "gold": "PD0 is INT0 input by default.",
+    "gold_page": 80,
+    "retrieved": false,
+    "pred": "PD0 is configured as ADC0 (ADC input channel 0). [p.82]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the base address for the FRAM registers?",
+    "gold": "The base address for FRAM registers is 01A0h.",
+    "gold_page": 63,
+    "retrieved": true,
+    "pred": "The base address for FRAM registers is 01A0h. [p.63]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the base address for the FRAM registers?",
+    "gold": "The base address for FRAM registers is 01A0h.",
+    "gold_page": 63,
+    "retrieved": false,
+    "pred": "The base address for FRAM registers is 01A0h. [p.62]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the maximum frequency for I/O output when the load capacitance is 50 pF and VDD is between 2 V and 3.6 V?",
+    "gold": "The maximum frequency is 2 MHz for MODEx[1:0] = 10 and 10 MHz for MODEx[1:0] = 01.",
+    "gold_page": 65,
+    "retrieved": true,
+    "pred": "The maximum frequency is 10 MHz. [p.65]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the maximum frequency for I/O output when the load capacitance is 50 pF and VDD is between 2 V and 3.6 V?",
+    "gold": "The maximum frequency is 2 MHz for MODEx[1:0] = 10 and 10 MHz for MODEx[1:0] = 01.",
+    "gold_page": 65,
+    "retrieved": false,
+    "pred": "The maximum frequency is 30 MHz. [p.65]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the maximum ESD voltage for the charge device model (CDM) as per the STM32F103C8 datasheet?",
+    "gold": "The maximum ESD voltage for the charge device model (CDM) is 500 V.",
+    "gold_page": 59,
+    "retrieved": true,
+    "pred": "The maximum ESD voltage for the charge device model (CDM) is 500 V. [p.59]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the maximum ESD voltage for the charge device model (CDM) as per the STM32F103C8 datasheet?",
+    "gold": "The maximum ESD voltage for the charge device model (CDM) is 500 V.",
+    "gold_page": 59,
+    "retrieved": false,
+    "pred": "The maximum ESD voltage for the charge device model (CDM) is listed in Table 32: ESD absolute maximum ratings. [p.113]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the offset for the ADC memory control register?",
+    "gold": "The offset for the ADC memory control register is 0Ah.",
+    "gold_page": 68,
+    "retrieved": true,
+    "pred": "The offset for ADC memory control 0 is 12h. [p.68]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the offset for the ADC memory control register?",
+    "gold": "The offset for the ADC memory control register is 0Ah.",
+    "gold_page": 68,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the minimum time for STE lead time in eUSCI master mode?",
+    "gold": "1 UCxCLK cycle",
+    "gold_page": 30,
+    "retrieved": true,
+    "pred": "The minimum time for STE lead time is 1 cycle. [p.30]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the minimum time for STE lead time in eUSCI master mode?",
+    "gold": "1 UCxCLK cycle",
+    "gold_page": 30,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the maximum STE lag time for eUSCI SPI slave mode?",
+    "gold": "The maximum STE lag time is 20 ns at 3 V.",
+    "gold_page": 32,
+    "retrieved": true,
+    "pred": "The maximum STE lag time is 20 ns. [p.32]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the maximum STE lag time for eUSCI SPI slave mode?",
+    "gold": "The maximum STE lag time is 20 ns at 3 V.",
+    "gold_page": 32,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the minimum setup time for SBWTDIO before the falling edge of SBWTCK?",
+    "gold": "The minimum setup time for SBWTDIO before the falling edge of SBWTCK is 4 ns.",
+    "gold_page": 38,
+    "retrieved": true,
+    "pred": "The minimum setup time for SBWTDIO before the falling edge of SBWTCK is 4 ns. [p.38]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the minimum setup time for SBWTDIO before the falling edge of SBWTCK?",
+    "gold": "The minimum setup time for SBWTDIO before the falling edge of SBWTCK is 4 ns.",
+    "gold_page": 38,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the typical temperature drift of VLO frequency?",
+    "gold": "0.5 %/°C",
+    "gold_page": 26,
+    "retrieved": true,
+    "pred": "The typical temperature drift of VLO frequency is 0.5%/°C. [p.26]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the typical temperature drift of VLO frequency?",
+    "gold": "0.5 %/°C",
+    "gold_page": 26,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "20_ATmega32U4",
+    "question": "What is the maximum baud rate error tolerance for a resonator-based system clock in the ATmega3.2U4 microcontroller?",
+    "gold": "The maximum baud rate error tolerance for a resonator-based system clock is 2%.",
+    "gold_page": 204,
+    "retrieved": true,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "20_ATmega32U4",
+    "question": "What is the maximum baud rate error tolerance for a resonator-based system clock in the ATmega3.2U4 microcontroller?",
+    "gold": "The maximum baud rate error tolerance for a resonator-based system clock is 2%.",
+    "gold_page": 204,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "20_ATmega32U4",
+    "question": "What is the size of the general purpose register file in the AVR microcontroller?",
+    "gold": "The register file contains 32 x  8-bit general purpose working registers.",
+    "gold_page": 9,
+    "retrieved": true,
+    "pred": "The general purpose register file has 32 x 8-bit working registers. [p.9]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "20_ATmega32U4",
+    "question": "What is the size of the general purpose register file in the AVR microcontroller?",
+    "gold": "The register file contains 32 x  8-bit general purpose working registers.",
+    "gold_page": 9,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "13_LPC1768",
+    "question": "What is the pin function for P2[0]?",
+    "gold": "P2[0] is a general purpose digital input/output pin and also serves as PWM1[1] output and TXD1 transmitter for UART1.",
+    "gold_page": 16,
+    "retrieved": true,
+    "pred": "P2[0] is a general purpose digital input/output pin. [p.16]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "13_LPC1768",
+    "question": "What is the pin function for P2[0]?",
+    "gold": "P2[0] is a general purpose digital input/output pin and also serves as PWM1[1] output and TXD1 transmitter for UART1.",
+    "gold_page": 16,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the function of the pin labeled 'VQFN thermal pad'?",
+    "gold": "The VQFN thermal pad is a package exposed thermal pad that connects to VSS.",
+    "gold_page": 14,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the function of the pin labeled 'VQFN thermal pad'?",
+    "gold": "The VQFN thermal pad is a package exposed thermal pad that connects to VSS.",
+    "gold_page": 14,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "20_ATmega32U4",
+    "question": "What happens to the COM4x bits when Fault Protection is triggered?",
+    "gold": "The COM4x bits are cleared when Fault Protection is triggered.",
+    "gold_page": 159,
+    "retrieved": true,
+    "pred": "The COM4x bits are cleared. [p.159]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "20_ATmega32U4",
+    "question": "What happens to the COM4x bits when Fault Protection is triggered?",
+    "gold": "The COM4x bits are cleared when Fault Protection is triggered.",
+    "gold_page": 159,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "13_LPC1768",
+    "question": "What is the condition for the ADC to be in Power-down mode?",
+    "gold": "The ADC is in Power-down mode if the PDN bit in the AD0CR register is set to 0.",
+    "gold_page": 50,
+    "retrieved": true,
+    "pred": "The ADC is in Power-down mode if the PDN bit in the AD0CR register is set to 0. [p.50]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "13_LPC1768",
+    "question": "What is the condition for the ADC to be in Power-down mode?",
+    "gold": "The ADC is in Power-down mode if the PDN bit in the AD0CR register is set to 0.",
+    "gold_page": 50,
+    "retrieved": false,
+    "pred": "The ADC is in Power-down mode when the supply current is less than 1.95 mA. [p.48]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the function of the CCR0 register in Timer0_A3?",
+    "gold": "In Up mode, CCR0 registers can be used to set the overflow value of the counter.",
+    "gold_page": 50,
+    "retrieved": true,
+    "pred": "CCR0 registers on Timer0_A3 are used to set the overflow value of the counter in Up mode. They are not externally connected and can only be used for internal period timing and interrupt generation. [p.50]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the function of the CCR0 register in Timer0_A3?",
+    "gold": "In Up mode, CCR0 registers can be used to set the overflow value of the counter.",
+    "gold_page": 50,
+    "retrieved": false,
+    "pred": "CCR0 registers can be used only for internal period timing and interrupt generation. [p.3]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "13_LPC1768",
+    "question": "What is the DMA burst size programmability feature for?",
+    "gold": "The DMA burst size can be programmed to more efficiently transfer data.",
+    "gold_page": 25,
+    "retrieved": true,
+    "pred": "The DMA burst size can be programmed to more efficiently transfer data. [p.25]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "13_LPC1768",
+    "question": "What is the DMA burst size programmability feature for?",
+    "gold": "The DMA burst size can be programmed to more efficiently transfer data.",
+    "gold_page": 25,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "28_MSP430FR2433",
+    "question": "How many break points are supported by the MSP430Xv2 architecture?",
+    "gold": "The MSP430Xv2 architecture supports 3 break points.",
+    "gold_page": 76,
+    "retrieved": true,
+    "pred": "Three break points are supported by the MSP430Xv2 architecture. [p.76]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "28_MSP430FR2433",
+    "question": "How many break points are supported by the MSP430Xv2 architecture?",
+    "gold": "The MSP430Xv2 architecture supports 3 break points.",
+    "gold_page": 76,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "20_ATmega32U4",
+    "question": "What must be set as output before OC4x and OC4x values are visible on the pin?",
+    "gold": "The pin must be set as output before the OC4x and OC4x values are visible on the pin.",
+    "gold_page": 148,
+    "retrieved": true,
+    "pred": "The Data Direction Register (DDR) bits for OC4x and OC4x must be set as output before the OC4x and OC4x values are visible on the pin. [p.148]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "20_ATmega32U4",
+    "question": "What must be set as output before OC4x and OC4x values are visible on the pin?",
+    "gold": "The pin must be set as output before the OC4x and OC4x values are visible on the pin.",
+    "gold_page": 148,
+    "retrieved": false,
+    "pred": "The Output Compare value (OC4x / OC4x) must be set as output before OC4x and OC4x values are visible on the pin. [p.157]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the pin number for the eUSCI_A0 SPI slave out/master in?",
+    "gold": "Pin 4 (UCA0SOMI).",
+    "gold_page": 13,
+    "retrieved": true,
+    "pred": "P2.4 [p.49]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the pin number for the eUSCI_A0 SPI slave out/master in?",
+    "gold": "Pin 4 (UCA0SOMI).",
+    "gold_page": 13,
+    "retrieved": false,
+    "pred": "P1.5 [p.49]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "2_STM32F103C8",
+    "question": "How many external lines can wake up the CPU from Stop mode?",
+    "gold": "The device can be woken up from Stop mode by any of the 16 external lines, the PVD output, the RTC alarm or the USB wakeup.",
+    "gold_page": 16,
+    "retrieved": true,
+    "pred": "One of the 16 external lines, the PVD output, the RTC alarm or the USB wakeup. [p.16]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "2_STM32F103C8",
+    "question": "How many external lines can wake up the CPU from Stop mode?",
+    "gold": "The device can be woken up from Stop mode by any of the 16 external lines, the PVD output, the RTC alarm or the USB wakeup.",
+    "gold_page": 16,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "17_ESP8266EX",
+    "question": "How many virtual Wi-Fi interfaces does the ESP8:266EX Wi-Fi MAC support?",
+    "gold": "The ESP8266EX Wi-Fi MAC supports 2 virtual Wi-Fi interfaces.",
+    "gold_page": 16,
+    "retrieved": true,
+    "pred": "The ESP8266EX Wi-Fi MAC supports two virtual Wi-Fi interfaces. [p.16]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "17_ESP8266EX",
+    "question": "How many virtual Wi-Fi interfaces does the ESP8:266EX Wi-Fi MAC support?",
+    "gold": "The ESP8266EX Wi-Fi MAC supports 2 virtual Wi-Fi interfaces.",
+    "gold_page": 16,
+    "retrieved": false,
+    "pred": "The ESP8266EX Wi-Fi MAC supports two virtual Wi-Fi interfaces. [p.6]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "20_ATmega32U4",
+    "question": "What is the value of the prescaler divider (N) for the ATmega32U4 in fast PWM mode?",
+    "gold": "The prescaler divider (N) can be 1, 8, 64, 256, or 1024.",
+    "gold_page": 125,
+    "retrieved": true,
+    "pred": "The prescaler divider (N) is 1, 8, 64, 256, or 1024. [p.125]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "20_ATmega32U4",
+    "question": "What is the value of the prescaler divider (N) for the ATmega32U4 in fast PWM mode?",
+    "gold": "The prescaler divider (N) can be 1, 8, 64, 256, or 1024.",
+    "gold_page": 125,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "17_ESP8266EX",
+    "question": "What is the average TX power for 802.11n (MSC0) transmission?",
+    "gold": "The average TX power for 802.11n (MSC0) transmission is +18 dBm.",
+    "gold_page": 15,
+    "retrieved": true,
+    "pred": "The average TX power is +18 dBm for 802.11n (MSC0) transmission. [p.15]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "17_ESP8266EX",
+    "question": "What is the average TX power for 802.11n (MSC0) transmission?",
+    "gold": "The average TX power for 802.11n (MSC0) transmission is +18 dBm.",
+    "gold_page": 15,
+    "retrieved": false,
+    "pred": "The average TX power for 802.11n (MSC0) transmission is +14 dBm. [p.7]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "17_ESP8266EX",
+    "question": "What is the maximum clock frequency supported by the ESP8266EX SDIO interface?",
+    "gold": "The ESP8266EX supports up to 50 MHz SDIO v2.0 clock frequency.",
+    "gold_page": 18,
+    "retrieved": true,
+    "pred": "The maximum clock frequency is 50 MHz. [p.18]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "17_ESP8266EX",
+    "question": "What is the maximum clock frequency supported by the ESP8266EX SDIO interface?",
+    "gold": "The ESP8266EX supports up to 50 MHz SDIO v2.0 clock frequency.",
+    "gold_page": 18,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the default input/output mode for P2.0, P2.1, and P2.2 pins?",
+    "gold": "The default input/output mode for P2.0, P2.1, and P2.2 pins is input (I: 0) with Schmitt trigger enabled.",
+    "gold_page": 56,
+    "retrieved": true,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the default input/output mode for P2.0, P2.1, and P2.2 pins?",
+    "gold": "The default input/output mode for P2.0, P2.1, and P2.2 pins is input (I: 0) with Schmitt trigger enabled.",
+    "gold_page": 56,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "28_MSP430FR2433",
+    "question": "How long is data on the SIMO output valid after the output changing UCLK clock edge?",
+    "gold": "tVALID,SO(Slave) specifies how long data on the SIMO output is valid after the output changing UCLK clock edge. Negative values indicate that the data on the SIMO output can become invalid before the output changing clock edge observed on UCLK.",
+    "gold_page": 30,
+    "retrieved": true,
+    "pred": "The data on the SIMO output is valid for 20 ns after the output changes UCLK clock edge. [p.30]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "28_MSP430FR2433",
+    "question": "How long is data on the SIMO output valid after the output changing UCLK clock edge?",
+    "gold": "tVALID,SO(Slave) specifies how long data on the SIMO output is valid after the output changing UCLK clock edge. Negative values indicate that the data on the SIMO output can become invalid before the output changing clock edge observed on UCLK.",
+    "gold_page": 30,
+    "retrieved": false,
+    "pred": "The data on the SIMO output is valid for 65 ns after the output changes UCLK clock edge. [p.32]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "17_ESP8266EX",
+    "question": "What is the power consumption in light-sleep mode?",
+    "gold": "0.9 mA",
+    "gold_page": 16,
+    "retrieved": true,
+    "pred": "0.9 mA [p.16]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "17_ESP8266EX",
+    "question": "What is the power consumption in light-sleep mode?",
+    "gold": "0.9 mA",
+    "gold_page": 16,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the product family for the MSP430FR2433?",
+    "gold": "The MSP430FR2433 belongs to the MSP430 ultra-low-power sensing & measurement MCUs family.",
+    "gold_page": 7,
+    "retrieved": true,
+    "pred": "The MSP430FR2433 is part of the MSP430™Value Line sensing portfolio. [p.7]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the product family for the MSP430FR2433?",
+    "gold": "The MSP430FR2433 belongs to the MSP430 ultra-low-power sensing & measurement MCUs family.",
+    "gold_page": 7,
+    "retrieved": false,
+    "pred": "The MSP430FR2433 is part of the MSP430™Value Line sensing portfolio, TI's lowest-cost family of MCUs for sensing and measurement applications. [p.1]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the function of P2.2 pin?",
+    "gold": "P2.2 pin functions as ACLK (ACLK) with a default value of 1.",
+    "gold_page": 56,
+    "retrieved": true,
+    "pred": "P2.2 is connected to ACLK. [p.56]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the function of P2.2 pin?",
+    "gold": "P2.2 pin functions as ACLK (ACLK) with a default value of 1.",
+    "gold_page": 56,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "20_ATmega32U4",
+    "question": "What is the maximum number of data bits supported by the USART frame?",
+    "gold": "The USART supports serial frames with 5, 6, 7, 8, or 9 data bits.",
+    "gold_page": 188,
+    "retrieved": false,
+    "pred": "The USART supports up to 8 data bits in a frame. [p.192]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "20_ATmega32U4",
+    "question": "What is the maximum number of data bits supported by the USART frame?",
+    "gold": "The USART supports serial frames with 5, 6, 7, 8, or 9 data bits.",
+    "gold_page": 188,
+    "retrieved": false,
+    "pred": "The USART supports up to 8 data bits in a frame. [p.192]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the typical range for the load capacitance CL in pF?",
+    "gold": "The typical range for load capacitance CL is between 2 and 7 pF.",
+    "gold_page": 54,
+    "retrieved": true,
+    "pred": "The load capacitance CL is typically between 2 and 7 pF. [p.54]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the typical range for the load capacitance CL in pF?",
+    "gold": "The typical range for load capacitance CL is between 2 and 7 pF.",
+    "gold_page": 54,
+    "retrieved": false,
+    "pred": "The load capacitance CL is typically between 5 pF and 25 pF. [p.52]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "13_LPC1768",
+    "question": "What is the maximum rise time for USB signals on the LPC1768?",
+    "gold": "The maximum rise time is 13.8 ns.",
+    "gold_page": 63,
+    "retrieved": true,
+    "pred": "The maximum rise time is 13.8 ns. [p.63]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "13_LPC1768",
+    "question": "What is the maximum rise time for USB signals on the LPC1768?",
+    "gold": "The maximum rise time is 13.8 ns.",
+    "gold_page": 63,
+    "retrieved": false,
+    "pred": "The maximum rise time is 35 ns. [p.59]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "13_LPC1768",
+    "question": "What is the function of PWM1[3]?",
+    "gold": "PWM1[3] is the Pulse Width Modulator 1, channel 3 output.",
+    "gold_page": 17,
+    "retrieved": true,
+    "pred": "PWM1[3] is the Motor control PWM channel 3 output. [p.15]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "13_LPC1768",
+    "question": "What is the function of PWM1[3]?",
+    "gold": "PWM1[3] is the Pulse Width Modulator 1, channel 3 output.",
+    "gold_page": 17,
+    "retrieved": false,
+    "pred": "PWM1[3] is the Pulse Width Modulator 1, output 3. [p.18]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the trademark status of Arm in relation to the STM32F103xx microcontroller family?",
+    "gold": "Arm is a registered trademark of Arm Limited (or its subsidiaries) in the US and/or elsewhere.",
+    "gold_page": 9,
+    "retrieved": true,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the trademark status of Arm in relation to the STM32F103xx microcontroller family?",
+    "gold": "Arm is a registered trademark of Arm Limited (or its subsidiaries) in the US and/or elsewhere.",
+    "gold_page": 9,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the maximum PLL input clock frequency?",
+    "gold": "25 MHz",
+    "gold_page": 56,
+    "retrieved": true,
+    "pred": "The maximum PLL input clock frequency is 25 MHz. [p.56]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the maximum PLL input clock frequency?",
+    "gold": "25 MHz",
+    "gold_page": 56,
+    "retrieved": false,
+    "pred": "The maximum PLL input clock frequency is 8 MHz. [p.41]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the section number for the Nested vectored interrupt controller (NVIC) in the STM3.2F103C8 datasheet?",
+    "gold": "Section 2.3.5",
+    "gold_page": 2,
+    "retrieved": true,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the section number for the Nested vectored interrupt controller (NVIC) in the STM3.2F103C8 datasheet?",
+    "gold": "Section 2.3.5",
+    "gold_page": 2,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "17_ESP8266EX",
+    "question": "What is the minimum resolution of PWM in the ESP8266EX?",
+    "gold": "The minimum resolution is 44 ns.",
+    "gold_page": 21,
+    "retrieved": true,
+    "pred": "The minimum resolution of PWM is 44 ns. [p.21]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "17_ESP8266EX",
+    "question": "What is the minimum resolution of PWM in the ESP8266EX?",
+    "gold": "The minimum resolution is 44 ns.",
+    "gold_page": 21,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "17_ESP8266EX",
+    "question": "What is the bit resolution of the ESP8266EX's ADC?",
+    "gold": "The ESP8266EX has a 10-bit precision SAR ADC.",
+    "gold_page": 22,
+    "retrieved": true,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "17_ESP8266EX",
+    "question": "What is the bit resolution of the ESP8266EX's ADC?",
+    "gold": "The ESP8266EX has a 10-bit precision SAR ADC.",
+    "gold_page": 22,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the data retention time for the STM32F103C8 flash memory after 10 kcycles at 55 °C?",
+    "gold": "The data retention time is 20 years.",
+    "gold_page": 57,
+    "retrieved": true,
+    "pred": "The data retention time is 20 kcycles at 55 °C. [p.57]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the data retention time for the STM32F103C8 flash memory after 10 kcycles at 55 °C?",
+    "gold": "The data retention time is 20 years.",
+    "gold_page": 57,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "13_LPC1768",
+    "question": "What is the maximum ADC input current in deep sleep mode?",
+    "gold": "100 nA",
+    "gold_page": 48,
+    "retrieved": true,
+    "pred": "The maximum ADC input current in deep sleep mode is 100 nA. [p.48]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "13_LPC1768",
+    "question": "What is the maximum ADC input current in deep sleep mode?",
+    "gold": "100 nA",
+    "gold_page": 48,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the JTAG clock input pin on the MSP430FR2433?",
+    "gold": "P1.4 (also UCA0TXD, UCA0SIMO, TA1.2, TCK, A4, VREF+ for other functions).",
+    "gold_page": 43,
+    "retrieved": true,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the JTAG clock input pin on the MSP430FR2433?",
+    "gold": "P1.4 (also UCA0TXD, UCA0SIMO, TA1.2, TCK, A4, VREF+ for other functions).",
+    "gold_page": 43,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the pin used for the Timer0_A3 clock input?",
+    "gold": "P1.0 is the pin used for the Timer0_A3 clock input.",
+    "gold_page": 50,
+    "retrieved": true,
+    "pred": "P1.0 is the TA0CLK input for Timer0_A3. [p.50]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the pin used for the Timer0_A3 clock input?",
+    "gold": "P1.0 is the pin used for the Timer0_A3 clock input.",
+    "gold_page": 50,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "17_ESP8266EX",
+    "question": "What current does the ESP8266EX consume during Modem-sleep mode for DTIM3 beacon reception?",
+    "gold": "15 mA current.",
+    "gold_page": 17,
+    "retrieved": true,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "17_ESP8266EX",
+    "question": "What current does the ESP8266EX consume during Modem-sleep mode for DTIM3 beacon reception?",
+    "gold": "15 mA current.",
+    "gold_page": 17,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "13_LPC1768",
+    "question": "How does the Integrated PMU (Power Management Unit) minimize power consumption during specific modes?",
+    "gold": "The Integrated PMU automatically adjusts internal regulators to minimize power consumption during Sleep, Deep sleep, Power-down, and Deep power-down modes.",
+    "gold_page": 39,
+    "retrieved": true,
+    "pred": "The Integrated PMU automatically adjusts internal regulators to minimize power consumption during Sleep, Deep sleep, Power-down, and Deep power-down modes. [p.39]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "13_LPC1768",
+    "question": "How does the Integrated PMU (Power Management Unit) minimize power consumption during specific modes?",
+    "gold": "The Integrated PMU automatically adjusts internal regulators to minimize power consumption during Sleep, Deep sleep, Power-down, and Deep power-down modes.",
+    "gold_page": 39,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the internal pull-down resistance value for the TEST pin?",
+    "gold": "The internal pull-down resistance is 20 kΩ.",
+    "gold_page": 38,
+    "retrieved": true,
+    "pred": "The internal pull-down resistance value for the TEST pin is 35 kΩ. [p.38]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "28_MSP430FR2433",
+    "question": "What is the internal pull-down resistance value for the TEST pin?",
+    "gold": "The internal pull-down resistance is 20 kΩ.",
+    "gold_page": 38,
+    "retrieved": false,
+    "pred": "The TEST pin has an internal pulldown enabled, but no specific resistance value is listed in the excerpt. [p.15]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the range of the HSE clock frequency?",
+    "gold": "The HSE clock frequency ranges from 4 to 16 MHz.",
+    "gold_page": 12,
+    "retrieved": false,
+    "pred": "The HSE clock frequency ranges from 4 MHz to 16 MHz. [p.52]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the range of the HSE clock frequency?",
+    "gold": "The HSE clock frequency ranges from 4 to 16 MHz.",
+    "gold_page": 12,
+    "retrieved": false,
+    "pred": "The HSE clock frequency ranges from 4 MHz to 16 MHz. [p.52]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the current consumption measured in the STM3.2F103C8 datasheet?",
+    "gold": "The current consumption is measured as described in Figure 15 of the datasheet.",
+    "gold_page": 40,
+    "retrieved": true,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the current consumption measured in the STM3.2F103C8 datasheet?",
+    "gold": "The current consumption is measured as described in Figure 15 of the datasheet.",
+    "gold_page": 40,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "2_STM32F103C8",
+    "question": "What factors affect current consumption in the STM32F103C8?",
+    "gold": "Operating voltage, ambient temperature, I/O pin loading, device software configuration, operating frequencies, I/O pin switching rate, program location in memory, and executed binary code.",
+    "gold_page": 40,
+    "retrieved": true,
+    "pred": "Current consumption depends on operating voltage, ambient temperature, I/O pin loading, device software configuration, operating frequencies, I/O pin switching rate, program location in memory, and executed binary code. [p.40]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "2_STM32F103C8",
+    "question": "What factors affect current consumption in the STM32F103C8?",
+    "gold": "Operating voltage, ambient temperature, I/O pin loading, device software configuration, operating frequencies, I/O pin switching rate, program location in memory, and executed binary code.",
+    "gold_page": 40,
+    "retrieved": false,
+    "pred": "Current consumption depends on the number of active peripherals, their clock frequencies, and the power consumption of the peripherals themselves. [p.49]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "13_LPC1768",
+    "question": "What is the function of P0[0] as a general purpose I/O pin?",
+    "gold": "P0[0] serves as a general purpose digital input/output pin.",
+    "gold_page": 10,
+    "retrieved": true,
+    "pred": "P0[0] is a general purpose digital input/output pin. [p.10]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "13_LPC1768",
+    "question": "What is the function of P0[0] as a general purpose I/O pin?",
+    "gold": "P0[0] serves as a general purpose digital input/output pin.",
+    "gold_page": 10,
+    "retrieved": false,
+    "pred": "P0[0] is a general purpose digital input/output pin. [p.11]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "17_ESP8266EX",
+    "question": "What is the modulation frequency for the IR remote control interface?",
+    "gold": "The modulation frequency is 38 kHz.",
+    "gold_page": 21,
+    "retrieved": true,
+    "pred": "The modulation frequency is 38 kHz. [p.21]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "17_ESP8266EX",
+    "question": "What is the modulation frequency for the IR remote control interface?",
+    "gold": "The modulation frequency is 38 kHz.",
+    "gold_page": 21,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  },
+  {
+    "kind": "answerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the maximum width of the UFQFPN48 package in millimeters?",
+    "gold": "The maximum width of the UFQFPN48 package is 0.600 mm.",
+    "gold_page": 84,
+    "retrieved": true,
+    "pred": "The maximum width is 7.100 mm. [p.84]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "2_STM32F103C8",
+    "question": "What is the maximum width of the UFQFPN48 package in millimeters?",
+    "gold": "The maximum width of the UFQFPN48 package is 0.600 mm.",
+    "gold_page": 84,
+    "retrieved": false,
+    "pred": "The maximum width of the UFQFPN48 package is 48 mm. [p.84]"
+  },
+  {
+    "kind": "answerable",
+    "doc": "13_LPC1768",
+    "question": "What is the primary clock source for the PWM timer in the LPC1768?",
+    "gold": "The PWM timer uses the system derived clock, as specified in the timer block design.",
+    "gold_page": 33,
+    "retrieved": true,
+    "pred": "The primary clock source for the PWM timer is the standard Timer block. [p.33]"
+  },
+  {
+    "kind": "unanswerable",
+    "doc": "13_LPC1768",
+    "question": "What is the primary clock source for the PWM timer in the LPC1768?",
+    "gold": "The PWM timer uses the system derived clock, as specified in the timer block design.",
+    "gold_page": 33,
+    "retrieved": false,
+    "pred": "Not found in the provided datasheet."
+  }
+]

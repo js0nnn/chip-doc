@@ -1,0 +1,14 @@
+{
+  "generated": 2293,
+  "kept": 1990,
+  "drop_unsupported": 252,
+  "no_oracle": 257,
+  "drop_format": 31,
+  "drop_duplicate": 20,
+  "train": 1569,
+  "val": 80,
+  "test": 341,
+  "train_tokens_p50": 1490,
+  "train_tokens_p95": 2423,
+  "train_tokens_max": 4213
+}
