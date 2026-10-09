@@ -1,0 +1,5 @@
+myenv/
+__pycache__/
+*.pyc
+# Contains team names and register numbers (PII) - keep out of the public repo
+docs/Presentation 1.*

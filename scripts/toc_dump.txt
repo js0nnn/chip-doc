@@ -1,0 +1,462 @@
+
+================================================================================
+14_SAMD21G18A.json
+================================================================================
+   0 | L1 | P   1 | Features
+   1 | L1 | P   3 | Table of Contents
+   2 | L1 | P  12 | 1.  Description
+   3 | L1 | P  13 | 2.  Configuration Summary
+   4 | L1 | P  15 | 3.  SAM D21 Ordering Information(1)
+   5 | L2 | P  16 | 3.1.  SAM DA1 Ordering Information
+   6 | L1 | P  17 | 4.  Block Diagram
+   7 | L1 | P  18 | 5.  Pinout
+   8 | L2 | P  18 | 5.1.  SAM D21J and SAM DA1J
+   9 | L3 | P  18 | 5.1.1.  QFN64 / TQFP64
+  10 | L3 | P  19 | 5.1.2.  UFBGA64
+  11 | L2 | P  20 | 5.2.  SAM D21GxxA/B/D and SAM DA1GxxA/B
+  12 | L3 | P  20 | 5.2.1.  QFN48 / TQFP48
+  13 | L2 | P  21 | 5.3.  SAM D21GxxA
+  14 | L3 | P  21 | 5.3.1.  WLCSP45
+  15 | L2 | P  22 | 5.4.  SAM D21GxxL
+  16 | L3 | P  22 | 5.4.1.  QFN48
+  17 | L2 | P  23 | 5.5.  SAM D21ExxA/B/D and SAM DA1ExxA/B
+  18 | L3 | P  23 | 5.5.1.  QFN32 / TQFP32
+  19 | L2 | P  24 | 5.6.  SAM D21ExxB/C/D
+  20 | L3 | P  24 | 5.6.1.  WLCSP35
+  21 | L2 | P  25 | 5.7.  SAM D21ExxL
+  22 | L3 | P  25 | 5.7.1.  QFN32 / TQFP32
+  23 | L1 | P  26 | 6.  Signal Descriptions List
+  24 | L1 | P  28 | 7.  I/O Multiplexing and Considerations
+  25 | L2 | P  28 | 7.1.  Multiplexed Signals
+  26 | L2 | P  31 | 7.2.  Other Functions
+  27 | L3 | P  31 | 7.2.1.  Oscillator Pinout
+  28 | L3 | P  31 | 7.2.2.  Serial Wire Debug Interface Pinout
+  29 | L3 | P  32 | 7.2.3.  SERCOM I2C Pins
+  30 | L3 | P  32 | 7.2.4.  GPIO Clusters
+  31 | L3 | P  32 | 7.2.5.  TCC Configurations
+  32 | L1 | P  34 | 8.  Power Supply and Start-Up Considerations
+  33 | L2 | P  34 | 8.1.  Power Domain Overview
+  34 | L2 | P  34 | 8.2.  Power Supply Considerations
+  35 | L3 | P  34 | 8.2.1.  Power Supplies
+  36 | L3 | P  35 | 8.2.2.  Voltage Regulator
+  37 | L3 | P  35 | 8.2.3.  Typical Powering Schematics
+  38 | L3 | P  35 | 8.2.4.  Power-Up Sequence
+  39 | L4 | P  35 | 8.2.4.1.  Minimum Rise Rate
+  40 | L4 | P  35 | 8.2.4.2.  Maximum Rise Rate
+  41 | L2 | P  36 | 8.3.  Power-Up
+  42 | L3 | P  36 | 8.3.1.  Starting of Clocks
+  43 | L3 | P  36 | 8.3.2.  I/O Pins
+  44 | L3 | P  36 | 8.3.3.  Fetching of Initial Instructions
+  45 | L2 | P  36 | 8.4.  Power-On Reset and Brown-Out Detector
+  46 | L3 | P  36 | 8.4.1.  Power-On Reset on VDDANA
+  47 | L3 | P  37 | 8.4.2.  Brown-Out Detector on VDDANA
+  48 | L3 | P  37 | 8.4.3.  Brown-Out Detector on VDDCORE
+  49 | L1 | P  38 | 9.  Product Mapping
+  50 | L1 | P  40 | 10.  Memories
+  51 | L2 | P  40 | 10.1.  Embedded Memories
+  52 | L2 | P  40 | 10.2.  Physical Memory Map
+  53 | L2 | P  41 | 10.3.  NVM Calibration and Auxiliary Space
+  54 | L3 | P  42 | 10.3.1.  NVM User Row Mapping
+  55 | L3 | P  43 | 10.3.2.  NVM Software Calibration Area Mapping
+  56 | L3 | P  44 | 10.3.3.  Serial Number
+  57 | L1 | P  45 | 11.  Processor And Architecture
+  58 | L2 | P  45 | 11.1.  Cortex M0+ Processor
+  59 | L3 | P  45 | 11.1.1.  Cortex M0+ Configuration
+  60 | L3 | P  45 | 11.1.2.  Cortex-M0+ Peripherals
+  61 | L3 | P  46 | 11.1.3.  Cortex-M0+ Address Map
+  62 | L3 | P  46 | 11.1.4.  I/O Interface
+  63 | L4 | P  46 | 11.1.4.1.  Overview
+  64 | L4 | P  46 | 11.1.4.2.  Description
+  65 | L2 | P  46 | 11.2.  Nested Vector Interrupt Controller
+  66 | L3 | P  46 | 11.2.1.  Overview
+  67 | L3 | P  46 | 11.2.2.  Interrupt Line Mapping
+  68 | L2 | P  47 | 11.3.  Micro Trace Buffer
+  69 | L3 | P  47 | 11.3.1.  Features
+  70 | L3 | P  47 | 11.3.2.  Overview
+  71 | L2 | P  48 | 11.4.  High-Speed Bus System
+  72 | L3 | P  48 | 11.4.1.  Features
+  73 | L3 | P  49 | 11.4.2.  Configuration
+  74 | L3 | P  50 | 11.4.3.  SRAM Quality of Service
+  75 | L2 | P  50 | 11.5.  AHB-APB Bridge
+  76 | L2 | P  51 | 11.6.  Peripheral Access Controller (PAC)
+  77 | L3 | P  51 | 11.6.1.  Overview
+  78 | L3 | P  52 | 11.6.2.  Register Description
+  79 | L4 | P  52 | 11.6.2.1.  PAC0 Register Description
+  80 | L5 | P  53 | 11.6.2.1.1.  Write Protect Clear
+  81 | L5 | P  55 | 11.6.2.1.2.  Write-Protect Set
+  82 | L4 | P  56 | 11.6.2.2.  PAC1 Register Description
+  83 | L5 | P  57 | 11.6.2.2.1.  Write Protect Clear
+  84 | L5 | P  59 | 11.6.2.2.2.  Write-Protect Set
+  85 | L4 | P  60 | 11.6.2.3.  PAC2 Register Description
+  86 | L5 | P  61 | 11.6.2.3.1.  Write-Protect Clear
+  87 | L5 | P  64 | 11.6.2.3.2.  Write-Protect Set
+  88 | L2 | P  66 | 11.7.  Register Access and Behavior
+  89 | L1 | P  67 | 12.  Peripherals Configuration Summary
+  90 | L1 | P  69 | 13.  DSU - Device Service Unit
+  91 | L2 | P  69 | 13.1.  Overview
+  92 | L2 | P  69 | 13.2.  Features
+  93 | L2 | P  69 | 13.3.  Block Diagram
+  94 | L2 | P  70 | 13.4.  Signal Description
+  95 | L2 | P  70 | 13.5.  Product Dependencies
+  96 | L3 | P  70 | 13.5.1.  I/O Lines
+  97 | L3 | P  70 | 13.5.2.  Power Management
+  98 | L3 | P  70 | 13.5.3.  Clocks
+  99 | L3 | P  70 | 13.5.4.  DMA
+ 100 | L3 | P  70 | 13.5.5.  Interrupts
+ 101 | L3 | P  70 | 13.5.6.  Events
+ 102 | L3 | P  70 | 13.5.7.  Register Access Protection
+ 103 | L3 | P  71 | 13.5.8.  Analog Connections
+ 104 | L2 | P  71 | 13.6.  Debug Operation
+ 105 | L3 | P  71 | 13.6.1.  Principle of Operation
+ 106 | L3 | P  71 | 13.6.2.  CPU Reset Extension
+ 107 | L3 | P  72 | 13.6.3.  Debugger Probe Detection
+ 108 | L4 | P  72 | 13.6.3.1.  Cold Plugging
+ 109 | L4 | P  72 | 13.6.3.2.  Hot Plugging
+ 110 | L2 | P  72 | 13.7.  Chip Erase
+ 111 | L2 | P  73 | 13.8.  Programming
+ 112 | L2 | P  73 | 13.9.  Intellectual Property Protection
+ 113 | L3 | P  75 | 13.9.1.  Program and Debug Interface Disable (PDID)
+ 114 | L2 | P  75 | 13.10.  Device Identification
+ 115 | L3 | P  75 | 13.10.1.  CoreSight Identification
+ 116 | L3 | P  76 | 13.10.2.  Chip Identification Method
+ 117 | L2 | P  76 | 13.11.  Functional Description
+ 118 | L3 | P  76 | 13.11.1.  Principle of Operation
+ 119 | L3 | P  76 | 13.11.2.  Basic Operation
+ 120 | L4 | P  76 | 13.11.2.1.  Initialization
+ 121 | L4 | P  76 | 13.11.2.2.  Operation From a Debug Adapter
+ 122 | L4 | P  76 | 13.11.2.3.  Operation From the CPU
+ 123 | L3 | P  76 | 13.11.3.  32-bit Cyclic Redundancy Check CRC32
+ 124 | L4 | P  77 | 13.11.3.1.  Starting CRC32 Calculation
+ 125 | L4 | P  77 | 13.11.3.2.  Interpreting the Results
+ 126 | L3 | P  77 | 13.11.4.  Debug Communication Channels
+ 127 | L3 | P  78 | 13.11.5.  Testing of On-Board Memories MBIST
+ 128 | L3 | P  79 | 13.11.6.  System Services Availability when Accessed Externally and Device is Protected
+ 129 | L2 | P  81 | 13.12.  Register Summary
+ 130 | L2 | P  82 | 13.13.  Register Description
+ 131 | L3 | P  83 | 13.13.1.  Control
+ 132 | L3 | P  84 | 13.13.2.  Status A
+ 133 | L3 | P  85 | 13.13.3.  Status B
+ 134 | L3 | P  86 | 13.13.4.  Address
+ 135 | L3 | P  87 | 13.13.5.  Length
+ 136 | L3 | P  88 | 13.13.6.  Data
+ 137 | L3 | P  89 | 13.13.7.  Debug Communication Channel 0
+ 138 | L3 | P  90 | 13.13.8.  Debug Communication Channel 1
+ 139 | L3 | P  91 | 13.13.9.  Device Identification
+ 140 | L3 | P  93 | 13.13.10.  CoreSight ROM Table Entry 0
+ 141 | L3 | P  94 | 13.13.11.  CoreSight ROM Table Entry 1
+ 142 | L3 | P  95 | 13.13.12.  CoreSight ROM Table End
+ 143 | L3 | P  96 | 13.13.13.  CoreSight ROM Table Memory Type
+ 144 | L3 | P  97 | 13.13.14.  Peripheral Identification 4
+ 145 | L3 | P  98 | 13.13.15.  Peripheral Identification 0
+ 146 | L3 | P  99 | 13.13.16.  Peripheral Identification 1
+ 147 | L3 | P 100 | 13.13.17.  Peripheral Identification 2
+ 148 | L3 | P 101 | 13.13.18.  Peripheral Identification 3
+ 149 | L3 | P 102 | 13.13.19.  Component Identification 0
+
+================================================================================
+15_nRF52832.json
+================================================================================
+   0 | L1 | P   1 | nRF52832_PS_feature_list.pdf
+   1 | L1 | P  -1 | nRF52832_PS_v1.8.pdf
+   2 | L2 | P   2 | Contents
+   3 | L2 | P   9 | 1 Revision history
+   4 | L2 | P  11 | 2 About this document
+   5 | L3 | P  11 | 2.1 Document naming and status
+   6 | L3 | P  11 | 2.2 Peripheral naming and abbreviations
+   7 | L3 | P  11 | 2.3 Register tables
+   8 | L4 | P  11 | 2.3.1 Fields and values
+   9 | L3 | P  12 | 2.4 Registers
+  10 | L4 | P  12 | 2.4.1 DUMMY
+  11 | L2 | P  13 | 3 Block diagram
+  12 | L2 | P  14 | 4 Pin assignments
+  13 | L3 | P  14 | 4.1 QFN48 pin assignments
+  14 | L3 | P  16 | 4.2 WLCSP ball assignments
+  15 | L3 | P  18 | 4.3 GPIO usage restrictions
+  16 | L4 | P  18 | 4.3.1 GPIO located near the radio
+  17 | L4 | P  18 | 4.3.2 NFC antenna pins
+  18 | L2 | P  20 | 5 Absolute maximum ratings
+  19 | L2 | P  21 | 6 Recommended operating conditions
+  20 | L3 | P  21 | 6.1 WLCSP light sensitivity
+  21 | L2 | P  22 | 7 CPU
+  22 | L3 | P  22 | 7.1 Floating point interrupt
+  23 | L3 | P  22 | 7.2 Electrical specification
+  24 | L4 | P  22 | 7.2.1 CPU performance
+  25 | L3 | P  23 | 7.3 CPU and support module configuration
+  26 | L2 | P  24 | 8 Memory
+  27 | L3 | P  24 | 8.1 RAM - Random access memory
+  28 | L3 | P  25 | 8.2 Flash - Non-volatile memory
+  29 | L3 | P  25 | 8.3 Memory map
+  30 | L3 | P  25 | 8.4 Instantiation
+  31 | L2 | P  27 | 9 AHB multilayer
+  32 | L3 | P  27 | 9.1 AHB multilayer priorities
+  33 | L2 | P  28 | 10 EasyDMA
+  34 | L3 | P  29 | 10.1 EasyDMA array list
+  35 | L2 | P  30 | 11 NVMC — Non-volatile memory controller
+  36 | L3 | P  30 | 11.1 Writing to Flash
+  37 | L3 | P  30 | 11.2 Erasing a page in Flash
+  38 | L3 | P  30 | 11.3 Writing to user information configuration registers (UICR)
+  39 | L3 | P  30 | 11.4 Erasing user information configuration registers (UICR)
+  40 | L3 | P  31 | 11.5 Erase all
+  41 | L3 | P  31 | 11.6 Cache
+  42 | L3 | P  31 | 11.7 Registers
+  43 | L4 | P  31 | 11.7.1 READY
+  44 | L4 | P  32 | 11.7.2 CONFIG
+  45 | L4 | P  32 | 11.7.3 ERASEPAGE
+  46 | L4 | P  32 | 11.7.4 ERASEPCR1 ( Deprecated )
+  47 | L4 | P  32 | 11.7.5 ERASEALL
+  48 | L4 | P  33 | 11.7.6 ERASEPCR0 ( Deprecated )
+  49 | L4 | P  33 | 11.7.7 ERASEUICR
+  50 | L4 | P  33 | 11.7.8 ICACHECNF
+  51 | L4 | P  33 | 11.7.9 IHIT
+  52 | L4 | P  34 | 11.7.10 IMISS
+  53 | L3 | P  34 | 11.8 Electrical specification
+  54 | L4 | P  34 | 11.8.1 Flash programming
+  55 | L4 | P  34 | 11.8.2 Cache size
+  56 | L2 | P  35 | 12 BPROT — Block protection
+  57 | L3 | P  35 | 12.1 Registers
+  58 | L4 | P  36 | 12.1.1 CONFIG0
+  59 | L4 | P  37 | 12.1.2 CONFIG1
+  60 | L4 | P  39 | 12.1.3 DISABLEINDEBUG
+  61 | L4 | P  40 | 12.1.4 CONFIG2
+  62 | L4 | P  42 | 12.1.5 CONFIG3
+  63 | L2 | P  44 | 13 FICR — Factory information configuration registers
+  64 | L3 | P  44 | 13.1 Registers
+  65 | L4 | P  45 | 13.1.1 CODEPAGESIZE
+  66 | L4 | P  45 | 13.1.2 CODESIZE
+  67 | L4 | P  45 | 13.1.3 DEVICEID[0]
+  68 | L4 | P  45 | 13.1.4 DEVICEID[1]
+  69 | L4 | P  46 | 13.1.5 ER[0]
+  70 | L4 | P  46 | 13.1.6 ER[1]
+  71 | L4 | P  46 | 13.1.7 ER[2]
+  72 | L4 | P  46 | 13.1.8 ER[3]
+  73 | L4 | P  46 | 13.1.9 IR[0]
+  74 | L4 | P  47 | 13.1.10 IR[1]
+  75 | L4 | P  47 | 13.1.11 IR[2]
+  76 | L4 | P  47 | 13.1.12 IR[3]
+  77 | L4 | P  47 | 13.1.13 DEVICEADDRTYPE
+  78 | L4 | P  47 | 13.1.14 DEVICEADDR[0]
+  79 | L4 | P  48 | 13.1.15 DEVICEADDR[1]
+  80 | L4 | P  48 | 13.1.16 INFO.PART
+  81 | L4 | P  48 | 13.1.17 INFO.VARIANT
+  82 | L4 | P  49 | 13.1.18 INFO.PACKAGE
+  83 | L4 | P  49 | 13.1.19 INFO.RAM
+  84 | L4 | P  49 | 13.1.20 INFO.FLASH
+  85 | L4 | P  49 | 13.1.21 TEMP.A0
+  86 | L4 | P  50 | 13.1.22 TEMP.A1
+  87 | L4 | P  50 | 13.1.23 TEMP.A2
+  88 | L4 | P  50 | 13.1.24 TEMP.A3
+  89 | L4 | P  50 | 13.1.25 TEMP.A4
+  90 | L4 | P  50 | 13.1.26 TEMP.A5
+  91 | L4 | P  51 | 13.1.27 TEMP.B0
+  92 | L4 | P  51 | 13.1.28 TEMP.B1
+  93 | L4 | P  51 | 13.1.29 TEMP.B2
+  94 | L4 | P  51 | 13.1.30 TEMP.B3
+  95 | L4 | P  51 | 13.1.31 TEMP.B4
+  96 | L4 | P  52 | 13.1.32 TEMP.B5
+  97 | L4 | P  52 | 13.1.33 TEMP.T0
+  98 | L4 | P  52 | 13.1.34 TEMP.T1
+  99 | L4 | P  52 | 13.1.35 TEMP.T2
+ 100 | L4 | P  52 | 13.1.36 TEMP.T3
+ 101 | L4 | P  53 | 13.1.37 TEMP.T4
+ 102 | L4 | P  53 | 13.1.38 NFC.TAGHEADER0
+ 103 | L4 | P  53 | 13.1.39 NFC.TAGHEADER1
+ 104 | L4 | P  53 | 13.1.40 NFC.TAGHEADER2
+ 105 | L4 | P  54 | 13.1.41 NFC.TAGHEADER3
+ 106 | L2 | P  55 | 14 UICR — User information configuration registers
+ 107 | L3 | P  55 | 14.1 Registers
+ 108 | L4 | P  56 | 14.1.1 NRFFW[0]
+ 109 | L4 | P  56 | 14.1.2 NRFFW[1]
+ 110 | L4 | P  56 | 14.1.3 NRFFW[2]
+ 111 | L4 | P  57 | 14.1.4 NRFFW[3]
+ 112 | L4 | P  57 | 14.1.5 NRFFW[4]
+ 113 | L4 | P  57 | 14.1.6 NRFFW[5]
+ 114 | L4 | P  57 | 14.1.7 NRFFW[6]
+ 115 | L4 | P  57 | 14.1.8 NRFFW[7]
+ 116 | L4 | P  58 | 14.1.9 NRFFW[8]
+ 117 | L4 | P  58 | 14.1.10 NRFFW[9]
+ 118 | L4 | P  58 | 14.1.11 NRFFW[10]
+ 119 | L4 | P  58 | 14.1.12 NRFFW[11]
+ 120 | L4 | P  58 | 14.1.13 NRFFW[12]
+ 121 | L4 | P  58 | 14.1.14 NRFFW[13]
+ 122 | L4 | P  59 | 14.1.15 NRFFW[14]
+ 123 | L4 | P  59 | 14.1.16 NRFHW[0]
+ 124 | L4 | P  59 | 14.1.17 NRFHW[1]
+ 125 | L4 | P  59 | 14.1.18 NRFHW[2]
+ 126 | L4 | P  59 | 14.1.19 NRFHW[3]
+ 127 | L4 | P  60 | 14.1.20 NRFHW[4]
+ 128 | L4 | P  60 | 14.1.21 NRFHW[5]
+ 129 | L4 | P  60 | 14.1.22 NRFHW[6]
+ 130 | L4 | P  60 | 14.1.23 NRFHW[7]
+ 131 | L4 | P  60 | 14.1.24 NRFHW[8]
+ 132 | L4 | P  60 | 14.1.25 NRFHW[9]
+ 133 | L4 | P  61 | 14.1.26 NRFHW[10]
+ 134 | L4 | P  61 | 14.1.27 NRFHW[11]
+ 135 | L4 | P  61 | 14.1.28 CUSTOMER[0]
+ 136 | L4 | P  61 | 14.1.29 CUSTOMER[1]
+ 137 | L4 | P  61 | 14.1.30 CUSTOMER[2]
+ 138 | L4 | P  62 | 14.1.31 CUSTOMER[3]
+ 139 | L4 | P  62 | 14.1.32 CUSTOMER[4]
+ 140 | L4 | P  62 | 14.1.33 CUSTOMER[5]
+ 141 | L4 | P  62 | 14.1.34 CUSTOMER[6]
+ 142 | L4 | P  62 | 14.1.35 CUSTOMER[7]
+ 143 | L4 | P  62 | 14.1.36 CUSTOMER[8]
+ 144 | L4 | P  63 | 14.1.37 CUSTOMER[9]
+ 145 | L4 | P  63 | 14.1.38 CUSTOMER[10]
+ 146 | L4 | P  63 | 14.1.39 CUSTOMER[11]
+ 147 | L4 | P  63 | 14.1.40 CUSTOMER[12]
+ 148 | L4 | P  63 | 14.1.41 CUSTOMER[13]
+ 149 | L4 | P  64 | 14.1.42 CUSTOMER[14]
+
+================================================================================
+8_ATmega328P.json
+================================================================================
+   0 | L1 | P   1 | Features
+   1 | L1 | P   3 | 1. Pin Configurations
+   2 | L2 | P   4 | 1.1 Pin Descriptions
+   3 | L3 | P   4 | 1.1.1 VCC
+   4 | L3 | P   4 | 1.1.2 GND
+   5 | L3 | P   4 | 1.1.3 Port B (PB7:0) XTAL1/XTAL2/TOSC1/TOSC2
+   6 | L3 | P   4 | 1.1.4 Port C (PC5:0)
+   7 | L3 | P   4 | 1.1.5 PC6/RESET
+   8 | L3 | P   4 | 1.1.6 Port D (PD7:0)
+   9 | L3 | P   4 | 1.1.7 AVCC
+  10 | L3 | P   4 | 1.1.8 AREF
+  11 | L3 | P   5 | 1.1.9 ADC7:6 (TQFP and QFN/MLF Package Only)
+  12 | L2 | P   5 | 1.2 Disclaimer
+  13 | L2 | P   5 | 1.3 Automotive Quality Grade
+  14 | L1 | P   6 | 2. Overview
+  15 | L2 | P   6 | 2.1 Block Diagram
+  16 | L1 | P   8 | 3. Resources
+  17 | L1 | P   8 | 4. Data Retention
+  18 | L1 | P   8 | 5. About Code Examples
+  19 | L1 | P   9 | 6. AVR CPU Core
+  20 | L2 | P   9 | 6.1 Overview
+  21 | L2 | P  10 | 6.2 ALU – Arithmetic Logic Unit
+  22 | L2 | P  10 | 6.3 Status Register
+  23 | L3 | P  11 | 6.3.1 SREG – AVR Status Register
+  24 | L2 | P  12 | 6.4 General Purpose Register File
+  25 | L3 | P  13 | 6.4.1 The X-register, Y-register, and Z-register
+  26 | L2 | P  13 | 6.5 Stack Pointer
+  27 | L3 | P  14 | 6.5.1 SPH and SPL – Stack Pointer High and Stack Pointer Low Register
+  28 | L2 | P  14 | 6.6 Instruction Execution Timing
+  29 | L2 | P  15 | 6.7 Reset and Interrupt Handling
+  30 | L3 | P  16 | 6.7.1 Interrupt Response Time
+  31 | L1 | P  17 | 7. AVR Memories
+  32 | L2 | P  17 | 7.1 Overview
+  33 | L2 | P  17 | 7.2 In-System Reprogrammable Flash Program Memory
+  34 | L2 | P  18 | 7.3 SRAM Data Memory
+  35 | L3 | P  18 | 7.3.1 Data Memory Access Times
+  36 | L2 | P  19 | 7.4 EEPROM Data Memory
+  37 | L3 | P  19 | 7.4.1 EEPROM Read/Write Access
+  38 | L3 | P  19 | 7.4.2 Preventing EEPROM Corruption
+  39 | L2 | P  19 | 7.5 I/O Memory
+  40 | L3 | P  20 | 7.5.1 General Purpose I/O Registers
+  41 | L2 | P  20 | 7.6 Register Description
+  42 | L3 | P  20 | 7.6.1 EEARH and EEARL – The EEPROM Address Register
+  43 | L3 | P  20 | 7.6.2 EEDR – The EEPROM Data Register
+  44 | L3 | P  20 | 7.6.3 EECR – The EEPROM Control Register
+  45 | L3 | P  23 | 7.6.4 GPIOR2 – General Purpose I/O Register 2
+  46 | L3 | P  23 | 7.6.5 GPIOR1 – General Purpose I/O Register 1
+  47 | L3 | P  23 | 7.6.6 GPIOR0 – General Purpose I/O Register 0
+  48 | L1 | P  24 | 8. System Clock and Clock Options
+  49 | L2 | P  24 | 8.1 Clock Systems and their Distribution
+  50 | L3 | P  24 | 8.1.1 CPU Clock – clkCPU
+  51 | L3 | P  24 | 8.1.2 I/O Clock – clkI/O
+  52 | L3 | P  24 | 8.1.3 Flash Clock – clkFLASH
+  53 | L3 | P  25 | 8.1.4 Asynchronous Timer Clock – clkASY
+  54 | L3 | P  25 | 8.1.5 ADC Clock – clkADC
+  55 | L2 | P  25 | 8.2 Clock Sources
+  56 | L3 | P  25 | 8.2.1 Default Clock Source
+  57 | L3 | P  25 | 8.2.2 Clock Startup Sequence
+  58 | L2 | P  26 | 8.3 Low Power Crystal Oscillator
+  59 | L2 | P  27 | 8.4 Full Swing Crystal Oscillator
+  60 | L2 | P  29 | 8.5 Low Frequency Crystal Oscillator
+  61 | L2 | P  29 | 8.6 Calibrated Internal RC Oscillator
+  62 | L2 | P  30 | 8.7 128 kHz Internal Oscillator
+  63 | L2 | P  31 | 8.8 External Clock
+  64 | L2 | P  31 | 8.9 Clock Output Buffer
+  65 | L2 | P  32 | 8.10 Timer/Counter Oscillator
+  66 | L2 | P  32 | 8.11 System Clock Prescaler
+  67 | L2 | P  32 | 8.12 Register Description
+  68 | L3 | P  32 | 8.12.1 OSCCAL – Oscillator Calibration Register
+  69 | L3 | P  33 | 8.12.2 CLKPR – Clock Prescale Register
+  70 | L1 | P  34 | 9. Power Management and Sleep Modes
+  71 | L2 | P  34 | 9.1 Sleep Modes
+  72 | L2 | P  35 | 9.2 BOD Disable
+  73 | L2 | P  35 | 9.3 Idle Mode
+  74 | L2 | P  35 | 9.4 ADC Noise Reduction Mode
+  75 | L2 | P  35 | 9.5 Power-down Mode
+  76 | L2 | P  36 | 9.6 Power-save Mode
+  77 | L2 | P  36 | 9.7 Standby Mode
+  78 | L2 | P  36 | 9.8 Extended Standby Mode
+  79 | L2 | P  36 | 9.9 Power Reduction Register
+  80 | L2 | P  36 | 9.10 Minimizing Power Consumption
+  81 | L3 | P  36 | 9.10.1 Analog to Digital Converter
+  82 | L3 | P  36 | 9.10.2 Analog Comparator
+  83 | L3 | P  37 | 9.10.3 Brown-out Detector
+  84 | L3 | P  37 | 9.10.4 Internal Voltage Reference
+  85 | L3 | P  37 | 9.10.5 Watchdog Timer
+  86 | L3 | P  37 | 9.10.6 Port Pins
+  87 | L3 | P  37 | 9.10.7 On-chip Debug System
+  88 | L2 | P  37 | 9.11 Register Description
+  89 | L3 | P  37 | 9.11.1 SMCR – Sleep Mode Control Register
+  90 | L3 | P  38 | 9.11.2 MCUCR – MCU Control Register
+  91 | L3 | P  38 | 9.11.3 PRR – Power Reduction Register
+  92 | L1 | P  40 | 10. System Control and Reset
+  93 | L2 | P  40 | 10.1 Resetting the AVR
+  94 | L2 | P  40 | 10.2 Reset Sources
+  95 | L2 | P  41 | 10.3 Power-on Reset
+  96 | L2 | P  42 | 10.4 External Reset
+  97 | L2 | P  42 | 10.5 Brown-out Detection
+  98 | L2 | P  43 | 10.6 Watchdog System Reset
+  99 | L2 | P  43 | 10.7 Internal Voltage Reference
+ 100 | L3 | P  43 | 10.7.1 Voltage Reference Enable Signals and Start-up Time
+ 101 | L2 | P  43 | 10.8 Watchdog Timer
+ 102 | L3 | P  43 | 10.8.1 Features
+ 103 | L3 | P  44 | 10.8.2 Overview
+ 104 | L2 | P  46 | 10.9 Register Description
+ 105 | L3 | P  46 | 10.9.1 MCUSR – MCU Status Register
+ 106 | L3 | P  47 | 10.9.2 WDTCSR – Watchdog Timer Control Register
+ 107 | L1 | P  49 | 11. Interrupts
+ 108 | L2 | P  49 | 11.1 Interrupt Vectors in ATmega328P
+ 109 | L2 | P  52 | 11.2 Register Description
+ 110 | L3 | P  52 | 11.2.1 Moving Interrupts Between Application and Boot Space
+ 111 | L3 | P  52 | 11.2.2 MCUCR – MCU Control Register
+ 112 | L1 | P  53 | 12. External Interrupts
+ 113 | L2 | P  53 | 12.1 Pin Change Interrupt Timing
+ 114 | L2 | P  54 | 12.2 Register Description
+ 115 | L3 | P  54 | 12.2.1 EICRA – External Interrupt Control Register A
+ 116 | L3 | P  55 | 12.2.2 EIMSK – External Interrupt Mask Register
+ 117 | L3 | P  55 | 12.2.3 EIFR – External Interrupt Flag Register
+ 118 | L3 | P  56 | 12.2.4 PCICR – Pin Change Interrupt Control Register
+ 119 | L3 | P  56 | 12.2.5 PCIFR – Pin Change Interrupt Flag Register
+ 120 | L3 | P  57 | 12.2.6 PCMSK2 – Pin Change Mask Register 2
+ 121 | L3 | P  57 | 12.2.7 PCMSK1 – Pin Change Mask Register 1
+ 122 | L3 | P  57 | 12.2.8 PCMSK0 – Pin Change Mask Register 0
+ 123 | L1 | P  58 | 13. I/O-Ports
+ 124 | L2 | P  58 | 13.1 Overview
+ 125 | L2 | P  59 | 13.2 Ports as General Digital I/O
+ 126 | L3 | P  59 | 13.2.1 Configuring the Pin
+ 127 | L3 | P  60 | 13.2.2 Toggling the Pin
+ 128 | L3 | P  60 | 13.2.3 Switching Between Input and Output
+ 129 | L3 | P  60 | 13.2.4 Reading the Pin Value
+ 130 | L3 | P  62 | 13.2.5 Digital Input Enable and Sleep Modes
+ 131 | L3 | P  62 | 13.2.6 Unconnected Pins
+ 132 | L2 | P  63 | 13.3 Alternate Port Functions
+ 133 | L3 | P  65 | 13.3.1 Alternate Functions of Port B
+ 134 | L3 | P  68 | 13.3.2 Alternate Functions of Port C
+ 135 | L3 | P  70 | 13.3.3 Alternate Functions of Port D
+ 136 | L2 | P  72 | 13.4 Register Description
+ 137 | L3 | P  72 | 13.4.1 MCUCR – MCU Control Register
+ 138 | L3 | P  72 | 13.4.2 PORTB – The Port B Data Register
+ 139 | L3 | P  72 | 13.4.3 DDRB – The Port B Data Direction Register
+ 140 | L3 | P  72 | 13.4.4 PINB – The Port B Input Pins Address
+ 141 | L3 | P  73 | 13.4.5 PORTC – The Port C Data Register
+ 142 | L3 | P  73 | 13.4.6 DDRC – The Port C Data Direction Register
+ 143 | L3 | P  73 | 13.4.7 PINC – The Port C Input Pins Address
+ 144 | L3 | P  73 | 13.4.8 PORTD – The Port D Data Register
+ 145 | L3 | P  73 | 13.4.9 DDRD – The Port D Data Direction Register
+ 146 | L3 | P  73 | 13.4.10 PIND – The Port D Input Pins Address
+ 147 | L1 | P  74 | 14. 8-bit Timer/Counter0 with PWM
+ 148 | L2 | P  74 | 14.1 Features
+ 149 | L2 | P  74 | 14.2 Overview
