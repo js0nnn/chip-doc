@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 # Contains team names and register numbers (PII) - keep out of the public repo
 docs/Presentation 1.*
+
+# Fine-tuned weights / HF cache produced locally
+models/*/checkpoint-*/
