@@ -2,9 +2,9 @@
 
 **Ask a microcontroller datasheet questions from your terminal, and get answers that come from the datasheet, with page numbers.**
 
-![ChipDoc answering questions about the ESP32-H2 datasheet](docs/img/demo_esp32-h2.png)
+[![ChipDoc demo: indexing a datasheet, loading the model and answering questions with page citations](docs/img/demo.gif)](docs/ChipDoc_Demo.mp4)
 
-🎬 **[Watch the 2-minute demo video](docs/ChipDoc_Demo.mp4)**: indexing a new PDF, loading the model, answering with page citations, a correct refusal, and `/sources`.
+🎬 **[Watch the full 2-minute demo video](docs/ChipDoc_Demo.mp4)** (the preview above runs at 2.5× speed and skips the 28 s indexing wait). It covers indexing a new PDF, loading the model, answering with page citations, a correct refusal, and `/sources`.
 
 <details>
 <summary><code>/sources</code> shows the passages behind the last answer, with page numbers</summary>
