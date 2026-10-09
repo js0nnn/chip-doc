@@ -14,23 +14,7 @@
 
 Real output on **LPC1768**, a datasheet held out from training:
 
-```
-$ python -m chipdoc dataset/raw/13_LPC1768.pdf
-╭──────────────────────────────── ChipDoc ─────────────────────────────────╮
-│ 13_LPC1768.pdf  269 passages  |  Qwen3-0.6B (fine-tuned)                 │
-│ Ask a question about the datasheet.  /sources  show passages used  /quit │
-╰──────────────────────────────────────────────────────────────────────────╯
-❯ What is the maximum CPU clock frequency of the LPC1768?
-Answer: The LPC1768 operates at CPU frequencies up to 100 MHz. [p.1]
-Searched: p.37, p.1, p.3, p.26, p.18
-
-❯ How many UARTs does the LPC1768 have?
-Answer: The LPC1768 has four UARTs. [p.26]
-Searched: p.30, p.26, p.24, p.77
-
-❯ Does the LPC1768 have built-in Wi-Fi?
-Answer: Not found in the provided datasheet.
-```
+![ChipDoc answering questions about the held-out LPC1768 datasheet](docs/img/demo_lpc1768.png)
 
 ## Results (5 held-out datasheets, 100 questions)
 
