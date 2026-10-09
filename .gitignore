@@ -15,3 +15,4 @@ models/train.log
 # Teacher-eval scratch logs
 results/*.log
 dataset/qa/*.log
+.~lock.*
