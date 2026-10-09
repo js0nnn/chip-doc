@@ -1,0 +1,22 @@
+{
+  "seen": {
+    "answerable_n": 250,
+    "evidence_retrieved": 0.852,
+    "token_f1": 0.6448134347127541,
+    "numbers_correct": 0.7019867549668874,
+    "citation_correct": 0.8195876288659794,
+    "false_refusal": 0.0892018779342723,
+    "unanswerable_n": 0,
+    "refusal_accuracy": 0.0
+  },
+  "unseen": {
+    "answerable_n": 100,
+    "evidence_retrieved": 0.92,
+    "token_f1": 0.563133277415783,
+    "numbers_correct": 0.7538461538461538,
+    "citation_correct": 0.9102564102564102,
+    "false_refusal": 0.15217391304347827,
+    "unanswerable_n": 100,
+    "refusal_accuracy": 0.74
+  }
+}

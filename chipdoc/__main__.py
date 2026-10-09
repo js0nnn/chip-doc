@@ -4,6 +4,7 @@ Everything runs locally; neither the PDF nor the questions leave the machine.
 """
 import argparse
 import sys
+from pathlib import Path
 
 from rich.console import Console
 from rich.panel import Panel
@@ -25,16 +26,20 @@ def main(argv=None):
     console = Console()
     try:
         with console.status("Indexing PDF..."):
-            idx = index_pdf(args.pdf, log=lambda m: console.log(m))
+            idx = index_pdf(args.pdf, log=lambda m: console.print(f"[dim]{m}[/dim]"))
     except ValueError as e:
         console.print(f"[red]Error:[/red] {e}")
         return 1
 
     with console.status("Loading model..."):
+        from huggingface_hub.utils import disable_progress_bars, logging as hub_logging
+        from transformers.utils import logging as hf_logging
+        disable_progress_bars(), hub_logging.set_verbosity_error()
+        hf_logging.disable_progress_bar(), hf_logging.set_verbosity_error()
         from .generate import Generator
         gen = Generator(adapter=None) if args.base else Generator()
     model_name = "fine-tuned" if gen.finetuned else "base"
-    console.print(Panel(f"[bold]{idx.chunks[0]['document']}[/bold]  {len(idx.chunks)} passages  |  "
+    console.print(Panel(f"[bold]{Path(args.pdf).name}[/bold]  {len(idx.chunks)} passages  |  "
                         f"Qwen3-0.6B ({model_name})\n{HELP}", title="ChipDoc", border_style="cyan"))
 
     def ask(question):

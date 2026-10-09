@@ -87,6 +87,25 @@ that honours `/no_think`.*
 - **Label noise:** about 13% of reference answers are flawed (see above), which
   depresses F1 for every system equally.
 
+### Seen vs. unseen datasheets
+
+As a check for memorisation, the fine-tuned model was also run on 10 random QA pairs from each of the
+25 *training* datasheets (250 questions, same pipeline). Raw predictions are in
+`results/preds_train_docs.json`, and scores are in `results/scores_seen_vs_unseen.json`.
+
+| Metric | Seen (25 docs) | Unseen (5 docs) |
+|---|---|---|
+| Evidence in top 5 | 0.85 | 0.92 |
+| Token F1 | 0.64 | 0.56 |
+| Numbers correct | 0.70 | 0.75 |
+| Correct page cited | 0.82 | 0.91 |
+| False refusal | 0.09 | 0.15 |
+
+The gap is small, so the model learned a reading skill rather than memorising its training documents.
+The best datasheets (80% fully correct) were ATtiny85, ESP32-H2 and CC2640R2F, and copies of them are in `test/`.
+Example questions that work are in the report's terminal screenshots. Ask for one specific fact, using the
+datasheet's own terms. Casual phrasing ("ram?") is often refused.
+
 ### Latency
 
 On an RTX 3050 Laptop GPU, the evaluation ran at about 1.5 s per question
