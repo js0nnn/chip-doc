@@ -55,7 +55,11 @@ Answer-quality metrics are computed only where retrieval actually found the evid
 | **Cites the correct page** (of non-refusals) | 0.22 | **0.91** |
 | Refuses although the evidence was retrieved (lower is better) | **0.05** | 0.15 |
 | **Refuses when the evidence is absent** | 0.30 | **0.74** |
-<!-- TEACHER_ROW -->
+
+*The 4B teacher (qwen3:4b) isn't in this table: the local Ollama build reasons out
+loud even with thinking disabled, so it couldn't be scored in a comparable way in
+the time available. `evaluate.py answers --system teacher` is wired up for a build
+that honours `/no_think`.*
 
 ### What the fine-tune changed
 

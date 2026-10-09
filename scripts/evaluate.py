@@ -71,10 +71,12 @@ def make_answerer(system):
         import requests
 
         def ans(q, chunks):
+            msgs = build_messages(q, chunks)
+            msgs[-1]["content"] += "\n/no_think"  # qwen3:4b ignores think=False without it
             r = requests.post("http://localhost:11434/api/chat", timeout=300, json={
                 "model": "qwen3:4b", "stream": False, "think": False,
                 "options": {"temperature": 0, "num_ctx": 6144, "num_predict": 256},
-                "messages": build_messages(q, chunks)})
+                "messages": msgs})
             r.raise_for_status()
             return re.sub(r"<think>.*?</think>", "", r.json()["message"]["content"], flags=re.S).strip()
         return ans
