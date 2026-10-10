@@ -88,14 +88,14 @@ Evaluated on **5 held-out datasheets** across **100 domain-specific questions**:
 
 ```mermaid
 flowchart LR
-    PDF[/Datasheet PDF/] --> Ingest["1. Ingest & Chunk<br/>(pymupdf4llm, ≤1.2k chars/page)"]
+    PDF["Datasheet PDF"] --> Ingest["1. Ingest & Chunk<br/>(pymupdf4llm, ≤1.2k chars/page)"]
     Ingest --> Dense["Dense Embeddings<br/>(bge-small-en-v1.5 + FAISS)"]
     Ingest --> Sparse["Sparse Lexical<br/>(BM25 keywords)"]
-    Query[/User Question/] --> RRF["2. Reciprocal Rank Fusion<br/>(Top-5 Passages)"]
+    Query["User Question"] --> RRF["2. Reciprocal Rank Fusion<br/>(Top-5 Passages)"]
     Dense --> RRF
     Sparse --> RRF
     RRF --> LLM["3. Qwen3-0.6B + LoRA<br/>(RAFT Grounded Inference)"]
-    LLM --> Output[/Answer with [p. N] Citations<br/>or Refusal/]
+    LLM --> Output["Answer with page citations<br/>or Refusal"]
 ```
 
 1. **Ingest & Chunk**: The PDF is split into page-bounded chunks (≤1.2k characters) with preserved section headings. Chunks never cross page boundaries to ensure citations are 100% accurate.
@@ -209,11 +209,11 @@ Options:
 
 ```mermaid
 flowchart LR
-    A[download_datasheets.py] --> B[build_corpus.py]
-    B --> C[gen_qa.py<br/>(Ollama + qwen3:4b)]
-    C --> D[build_sft.py]
-    D --> E[train_lora.py]
-    E --> F[evaluate.py]
+    A["download_datasheets.py"] --> B["build_corpus.py"]
+    B --> C["gen_qa.py<br/>(Ollama + qwen3:4b)"]
+    C --> D["build_sft.py"]
+    D --> E["train_lora.py"]
+    E --> F["evaluate.py"]
     B --> F
 ```
 
